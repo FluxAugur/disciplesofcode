@@ -1,3 +1,7 @@
+Version 0.2.0:
+ - Merge pull request #1 from FluxAugur/feature/adding-versioning
+ - adding bumpversion.sh script; running bumpversion.sh script to initialize versioning and create CHANGES and VERSION files
+
 Version 0.1.0
  - Initial commit
 
