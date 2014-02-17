@@ -78,8 +78,8 @@ google_plus_one_size: medium
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-googleplus_user: NathanialMcConnell
-googleplus_hidden: false
+googleplus_user: 
+googleplus_hidden: true
 
 # Pinboard
 pinboard_user:
@@ -90,7 +90,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name: fluxaugur
+disqus_short_name: disciplesofcode
 disqus_show_comment_count: true
 
 # Google Analytics
