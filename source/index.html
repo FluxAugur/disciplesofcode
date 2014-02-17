@@ -3,32 +3,25 @@ layout: default
 navbar: Blog
 ---
 
-<div class="row">
-  <div class="page-content {% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-9{% else %}col-md-12{% endunless %}">
-    <div class="blog-index">
-      {% assign index = true %}
-      {% for post in paginator.posts %}
-      {% assign content = post.content %}
-        <article class="post">
-          {% include article.html %}
-        </article>
-      {% endfor %}
-    </div>
-
-    <ul class="pager">
-      {% if paginator.next_page %}
-        <li class="previous"><a href="{{paginator.next_page}}">&larr;&nbsp;Older</a></li>
+<div class="page-content {% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-9{% else %}col-md-12{% endunless %}">
+  <div class="blog-index">
+    {% assign loopindex = 0 %}
+    {% assign rowfinder = 0 %}
+    {% for post in site.posts %}
+      {% capture loopindex %}{{ loopindex | plus: 1 }}{% endcapture %}
+      {% capture rowfinder %}{{ loopindex | mod: 3 }}{% endcapture %}
+      {% if rowfinder == '1' %}
+        <div class="row-fluid">
+          <div class="{% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-4{% else %}col-md-3{% endunless %}">{% include custom/card_content.html %}</div>
+      {% elsif rowfinder == '2' %}
+          <div class="{% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-4{% else %}col-md-3{% endunless %}">{% include custom/card_content.html %}</div>
       {% else %}
-        <li class="previous disabled"><a href="#">&larr;&nbsp;Older</a></li>
+          <div class="{% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-4{% else %}col-md-3{% endunless %}">{% include custom/card_content.html %}</div></div>
       {% endif %}
-      <li><a href="/blog/archives">Blog Archives</a></li>
-      {% if paginator.previous_page %}
-        <li class="next"><a href="{{paginator.previous_page}}">Newer&nbsp;&rarr;</a></li>
-      {% else %}
-        <li class="next disabled"><a href="#">Newer&nbsp;&rarr;</a></li>
-      {% endif %}
-    </ul>
+    {% endfor %}
+    {% if rowfinder != '0' %}
   </div>
+    {% endif %}
 
   {% unless site.default_asides == empty and site.blog_index_asides == empty %}
     <aside class="sidebar col-md-3">
