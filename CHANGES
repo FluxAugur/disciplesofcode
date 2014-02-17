@@ -1,3 +1,15 @@
+Version 0.3.1:
+ - Merge pull request #7 from FluxAugur/feature/adding-about-page
+ - adding about page; adding about nav; updating links in call-to-action
+ - removing certain non-functional social networking integrations (github: functional, not desired; google+1: non-functional; google+: functional, not desired; facebook: deprecated)
+ - Merge tag '0.3.0' into develop
+ - Merge branch 'release/0.3.0'
+ - Merge pull request #6 from FluxAugur/feature/adding-social-networking
+ - configuring social networking
+ - configuring social networking
+ - Merge branch 'release/0.2.1'
+ - Merge pull request #2 from FluxAugur/feature/adding-octopress
+
 Version 0.3.0:
  - Merge tag '0.2.1' into develop
  - modifying Rakefile for rsync deployment
