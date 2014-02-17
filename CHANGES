@@ -1,3 +1,10 @@
+Version 0.3.3:
+ - adding card layout to blog post index
+ - updating disqus config
+ - updating disqus config
+ - Merge tag '0.3.1' into develop
+ - Merge branch 'release/0.3.1'
+
 Version 0.3.1:
  - Merge pull request #7 from FluxAugur/feature/adding-about-page
  - adding about page; adding about nav; updating links in call-to-action
