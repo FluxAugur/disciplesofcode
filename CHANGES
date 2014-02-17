@@ -1,3 +1,18 @@
+Version 0.2.1:
+ - adding CNAME
+ - setting up GitHub deployment
+ - setting up GitHub deployment
+ - adding welcome post
+ - Merge pull request #5 from FluxAugur/feature/configuring-octopress-and-theming-octostrap
+ - adding call-to-action jumbotron
+ - changing to bootswatch slate theme
+ - patching plugins (code_block to use bootstrap panel, include_code to use bootstrap panel, and category_generator to use bootstrap label)
+ - updating configuration
+ - Merge pull request #4 from FluxAugur/feature/adding-octostrap
+ - executed rake install for octostrap3
+ - cloned octostrap3 master branch into .theme/octostrap3
+ - Merge pull request #3 from FluxAugur/feature/adding-octopress
+
 Version 0.2.0:
  - Merge pull request #1 from FluxAugur/feature/adding-versioning
  - adding bumpversion.sh script; running bumpversion.sh script to initialize versioning and create CHANGES and VERSION files
