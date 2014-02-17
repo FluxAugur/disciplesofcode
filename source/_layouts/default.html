@@ -5,6 +5,9 @@
         {% include navigation.html %}
       </header>
       <div id="main" class="container">
+        <div id="call-to-action">
+          {% include call_to_action.html %}
+        </div>
         <div id="content">
           {{ content | expand_urls: root_url }}
         </div>
