@@ -4,7 +4,7 @@ require "stringex"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "FluxAugur@gmail.com"
+ssh_user       = "fluxaugur@gmail.com"
 ssh_port       = "22"
 document_root  = "~/htdocs/"
 rsync_delete   = false
