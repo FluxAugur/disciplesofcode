@@ -20,3 +20,4 @@ end
 gem 'sinatra', '~> 1.4.2'
 gem 'octopress-popular-posts'
 gem 'nokogiri'
+gem 'octokit'
