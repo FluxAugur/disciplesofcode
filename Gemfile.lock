@@ -17,6 +17,7 @@ GEM
       fssm (>= 0.2.7)
       sass (~> 3.1)
     directory_watcher (1.4.1)
+    erubis (2.7.0)
     ethon (0.6.3)
       ffi (>= 1.3.0)
       mime-types (~> 1.18)
@@ -41,6 +42,8 @@ GEM
     maruku (0.6.1)
       syntax (>= 1.0.0)
     mime-types (1.25.1)
+    mini_magick (3.7.0)
+      subexec (~> 0.2.1)
     mini_portile (0.5.2)
     multi_json (1.8.4)
     multipart-post (2.0.0)
@@ -73,6 +76,7 @@ GEM
       rack-protection (~> 1.4)
       tilt (~> 1.3, >= 1.3.4)
     stringex (1.4.0)
+    subexec (0.2.3)
     syntax (1.0.0)
     tilt (1.3.7)
     typhoeus (0.6.7)
@@ -86,9 +90,11 @@ DEPENDENCIES
   RedCloth (~> 4.2.9)
   compass (~> 0.12.2)
   directory_watcher (= 1.4.1)
+  erubis
   haml (~> 3.1.7)
   jekyll (~> 0.12)
   liquid (~> 2.3.0)
+  mini_magick
   nokogiri
   octokit
   octopress-popular-posts
