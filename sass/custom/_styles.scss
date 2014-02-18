@@ -19,32 +19,14 @@ footer[role=contentinfo] {
     height: 60px;
 }
 
-// This File is imported last, and will override other styles in the cascade
-// Add styles here to make changes without digging in too much
-
 .octopress-authorbox {
   border-top: 4px solid #333;
   background-color: #272b30;
+  padding-top: 5px;
 
-  .author-pic {
-    margin-top: 5px;
-  }
-
-  .author-pic img {
-    border: #c8c8c8 1px solid;
-    height: 50px;
-  }
-  
-  .author-about {
-    margin: 5px;
-    ul {
-      list-style: none;
-      
-      li {
-        display: inline;
-        margin-left: 5px;
-      }
-    }
-  
+  .author-about img {
+      border: #c8c8c8 1px solid;
+      height: 44px;
   }
 }
+

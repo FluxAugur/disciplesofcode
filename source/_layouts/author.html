@@ -1,23 +1,21 @@
-<div class='octopress-authorbox'>
-  <div class="row-fluid">
-    <div class="author-pic">
-      <img src="{{ gravatar }}" alt="{{ author.name }}" />
-    </div>
-    <div class="author-about">
-      <h3>{{ author.name }}</h3>
-      <p>{{ author.description }}</p>
-      <ul class="author-links">
+<div class="meta text-muted">
+  <div class="octopress-authorbox row-fluid center-block">
+    <div class="author-about col-md-12">
+      <div class="col-md-5">
+        {{ author.name }}<br>
         {% if author.twitter %}
-        <li>
           <a href="http://twitter.com/{{ author.twitter}}">@{{ author.twitter }}</a>
-        </li>
         {% endif %}
+      </div>
+      <div class="col-md-2">
+        <img src="{{ gravatar }}" alt="{{ author.name }}" />
+      </div>
+      <div class="col-md-5 text-right"> 
+        {{ author.description }}<br>
         {% if author.blog %}
-        <li>
           <a href="{{ author.blog }}">{{ author.blog }}</a>
-        </li>
         {% endif %}
-      </ul>
+      </div>
     </div>
   </div>
 </div>

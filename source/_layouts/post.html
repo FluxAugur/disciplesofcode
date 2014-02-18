@@ -8,26 +8,45 @@ single: true
   <div class="row-fluid">
     <article class="hentry" role="article">
       {% include article.html %}
-      <footer>
-        <p class="meta text-muted">
-          {% include post/author.html %}
-          {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
-          {% include post/categories.html %}
-        </p>
-        {% unless page.sharing == false %}
-          {% include post/sharing.html %}
-        {% endunless %}
-        {% if page.previous.url or page.next.url %}
-          <ul class="meta text-muted pager">
-            {% if page.previous.url %}
-            <li class="previous"><a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}</a></li>
+      <div class="row-fluid">
+        <footer>
+          <div class="row-fluid" style="padding-top: 10px;">
+            <div class="col-md-2" style="bottom: 3px;">
+              {% unless page.sharing == false %}
+                {% include post/sharing.html %}
+              {% endunless %}
+            </div>
+            <div class="col-md-10">
+              <p class="meta text-muted text-right">
+                {% include post/author.html %}
+                {% include post/date.html %}
+                {% if updated %}
+                  {{ updated }}
+                {% else %}
+                  {{ time }}
+                {% endif %}
+                {% include post/categories.html %}
+              </p>
+            </div>
+          </div>
+          <div class="row-fluid">
+            {% if page.previous.url or page.next.url %}
+              <ul class="meta text-muted pager">
+                {% if page.previous.url %}
+                  <li class="previous">
+                    <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}</a>
+                  </li>
+                {% endif %}
+                {% if page.next.url %}
+                  <li class="next">
+                    <a href="{{page.next.url}}" title="Next Post: {{page.next.title}}">{{page.next.title}} &raquo;</a>
+                  </li>
+                {% endif %}
+              </ul>
             {% endif %}
-            {% if page.next.url %}
-            <li class="next"><a href="{{page.next.url}}" title="Next Post: {{page.next.title}}">{{page.next.title}} &raquo;</a></li>
-            {% endif %}
-          </ul>
-        {% endif %}
-      </footer>
+          </div>
+        </footer>
+      </div>
     </article>
     {% if site.disqus_short_name and page.comments == true %}
       <section>
