@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Disciples of Code, Decoded - Part 1: Code?"
-author: "Nathanial L. McConnell"
+author: FluxAugur
 date: 2014-02-17 17:48:37 -0500
 comments: true
 sharing: true

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Disciples of Code, Decoded - Part 3: Discipline as Disciples"
-author: "Nathanial L. McConnell"
+author: FluxAugur
 date: 2014-02-17 17:53:54 -0500
 comments: true
 sharing: true

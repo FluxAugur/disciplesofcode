@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Disciples of Code, Decoded - Part 2: Decoding the Why"
-author: "Nathanial L. McConnell"
+author: FluxAugur
 date: 2014-02-17 17:50:26 -0500
 comments: true
 sharing: true
