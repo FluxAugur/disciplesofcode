@@ -97,9 +97,6 @@ disqus_show_comment_count: true
 # Google Analytics
 google_analytics_tracking_id: UA-48088162-1
 
-# Facebook Like
-facebook_like: false
-
 # Custom settings for https://developers.facebook.com/docs/reference/plugins/like-box/
 # the URL of the Facebook Page for this Like Box. Note: After July 2013 migration, href should be
 # an absolute URL.
@@ -124,3 +121,6 @@ facebook_like_box_show_border: false
 # for Places, specifies whether the stream contains posts from the Place's wall or just checkins
 # from friends. Default value: false.
 facebook_like_box_force_wall: false
+# Facebook Insights / Open Graph
+facebook_app_id: 731859596826236
+facebook_page: https://www.facebook.com/pages/Disciples-of-Code/583602605048299

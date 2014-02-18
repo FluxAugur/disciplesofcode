@@ -6,6 +6,12 @@ date: 2014-02-17 17:53:54 -0500
 comments: true
 sharing: true
 categories: [Coding, Learning, Rhetoric, Teaching, How]
+facebook:
+  image:
+twitter_card:
+  creator: fluxaugur
+  type: summary_large_image
+  image:
 ---
 <h3>Part 3: Discipline as Disciples</h3><br>
 <p>So you are ready to begin your journey and learn to code, but you don't know where to begin. Of course, information is free, for those willing to find it, but not all information is as valuable or worthwhile when you are just starting out. At this point, you can't tell bad code from good. You have no idea whether you should start out by thumbing through some massive tome of seemingly arcane jargon in an attempt to glean some tidbit of understanding, or simply fire up your trusty Internet search engine and dive in head-first.</p><br>
