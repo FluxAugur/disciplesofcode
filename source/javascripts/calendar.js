@@ -106,11 +106,11 @@ Calendar.prototype.generateHTML = function(id) {
   prevMonth = this.month - 1;
   nextMonth = this.month + 1;
   }
-  var html = '<table id="'+id+'-calendar-table" class="calendar-table">';
+  var html = '<table id="'+id+'-calendar-table" class="calendar-table"><caption><h3>Calendar of Posts</h3></caption>';
   html += '<tr><th colspan="7">';
-  html += '<a id="'+this.id+'-prev-calendar-link" class="prev-link" style="height:25px;width:25px" href="#" onclick="monthCalendar(\''+this.guid+'\','+prevYear+','+prevMonth+');return false;" ><img class="prevCalendarLink" style="height:25px;width:25px;border:none 0px;padding-top:2px" src="/images/prev.png"></img></a>';
+  html += '<a id="'+this.id+'-prev-calendar-link" class="prevCalendarLink" href="#" onclick="monthCalendar(\''+this.guid+'\','+prevYear+','+prevMonth+');return false;" ><img class="prevCalendarLink" src="/images/prev.png"></img></a>';
   html +=  monthName + "&nbsp;" + this.year;
-  html += '<a id="'+this.id+'-next-calendar-link" class="next-link" style="height:25px;width:25px" href="#" onclick="monthCalendar(\''+this.guid+'\','+nextYear+','+nextMonth+');return false;"><img class="nextCalendarLink"  style="height:25px;width:25px;border:none 0px;padding-top:2px" src="/images/next.png"></img></a>';
+  html += '<a id="'+this.id+'-next-calendar-link" class="nextCalendarLink" href="#" onclick="monthCalendar(\''+this.guid+'\','+nextYear+','+nextMonth+');return false;"><img class="nextCalendarLink"  src="/images/next.png"></img></a>';
   html += '</th></tr>';
   html += '<tr class="calendar-header">';
   for(var i = 0; i <= 6; i++ ){

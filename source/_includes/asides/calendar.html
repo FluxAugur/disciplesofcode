@@ -51,12 +51,13 @@
   .calendar-table
   {
     width : 100%;
+    background-color: #272b30;
     
   }
   
   .calendar-table td
   {
-    border-right : dotted 1px lightgrey;
+    border-right : dotted 1px #272b30;
     text-align : center;
   }
   
@@ -67,14 +68,14 @@
   
   .calendar-table th
   {
-    background-color : lightgrey;
+    background-color : #272b30;
     text-align : center;
   }
   .prevCalendarLink img
   { 
     
-    width : 20px;
-    height : 20px;
+    width : 10px;
+    height : 10px;
     border: 0px;
     float: left;
     
@@ -83,15 +84,15 @@
   .nextCalendarLink img
   {
     
-    width : 20px;
-    height: 20px;
+    width : 10px;
+    height: 10px;
     border: 0px;
     float: right;
     
   }
 </style>
 <script type="text/javascript" src="{{ root_url }}/javascripts/calendar.js"></script>
-<section id="calendarDiv">
+<section class="panel panel-default" id="calendarDiv">
   <span style="display:block" id="calendarSpan"></span>
   <div>
     <a href="#" class="previousMonth show"/><a href="#" class="nextMonth hide"/>
