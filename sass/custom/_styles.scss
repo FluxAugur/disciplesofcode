@@ -1,9 +1,7 @@
-/* nice sticky footer, from http://getbootstrap.com/examples/sticky-footer/ */
-html, body {
-    height: 100%;
-    /* The html and body elements cannot have any padding or margin. */
+body {
+  padding-bottom: 70px;
 }
-/* Wrapper for page content to push down footer */
+
 #wrap {
   min-height: 100%;
   height: auto !important;
@@ -19,6 +17,15 @@ footer[role=contentinfo] {
     height: 60px;
 }
 
+.page-header {
+  padding-bottom: 0px;
+  margin: 0px;
+}
+
+div#call-to-action {
+  padding-top: 275px;
+}
+
 .octopress-authorbox {
   border-top: 4px solid #333;
   background-color: #272b30;
@@ -30,3 +37,87 @@ footer[role=contentinfo] {
   }
 }
 
+.jumbotron-fixed-top {
+  height: 250px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;  
+  top: 0;
+  border-width: 0 0 1px;
+}
+@media (min-width: 768px) {
+  .jumbotron-fixed-top {
+    border-radius: 0;
+  }
+}
+.jumbotron-fixed-top h1,
+.jumbotron-fixed-top .h1 {
+  position: fixed;
+  top: 0px;
+  left: 25px;
+}
+.jumbotron-fixed-top h2,
+.jumbotron-fixed-top .h2 {
+  position: fixed;
+  top: 80px;
+  left: 75px;
+}
+.jumbotron-fixed-top p {
+}
+.jumbotron-fixed-top img,
+.jumbotron-fixed-top .img {
+  position: fixed;
+  top: 43px;
+  right: 25px;
+}
+.jumbotron-fixed-top btn,
+.jumbotron-fixed-top .btn {
+  position: fixed;
+  top: 165px;
+  left: 125px;
+}
+
+div.jumbotron.shrink {
+  height: 35px;
+}
+div.jumbotron.shrink h1,
+div.jumbotron.shrink .h1 {
+  font-size: 25px;
+  position: fixed;
+  top: 15px;
+  left: 150px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+div.jumbotron.shrink h2,
+div.jumbotron.shrink .h2 {
+  font-size: 21px;
+  position: fixed;
+  top: 25px;
+  left: 200px;
+}
+div.jumbotron.shrink p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+div.jumbotron.shrink img,
+div.jumbotron.shrink .img {
+  height: 96px;
+  width: 103px;
+  position: fixed;
+  top: 0;
+  right: 10px;
+}
+div.jumbotron.shrink btn,
+div.jumbotron.shrink .btn {
+  position: fixed;
+  top: 25px;
+}
+.container div.jumbotron.shrink {
+  border-radius: 6px;
+}
+div.jumbotron.shrink .container {
+  max-width: 100%;
+}
