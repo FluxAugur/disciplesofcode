@@ -1,4 +1,6 @@
-<section>
-  <h1> Change History </h1>
-  {% revision limit:5 %}
-</section>
+{% if revision %}
+  <section>
+    <h1> Change History </h1>
+    {% revision limit:5 %}
+  </section>
+{% endif %}
