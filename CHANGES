@@ -1,3 +1,14 @@
+Version 0.3.7:
+ - adding author cards
+ - adding author_generator
+ - configuring authorbox; styling;
+ - configuring authorbox
+ - added authorbox
+ - redesigned about pages; wrote 3 part article about site
+ - updating card layout on blog index; updating post and about pages;
+ - Merge tag '0.3.6' into develop
+ - Merge branch 'release/0.3.6'
+
 Version 0.3.6:
  - adding 3d category cloud
  - Merge tag '0.3.5' into develop
