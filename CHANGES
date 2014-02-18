@@ -1,3 +1,8 @@
+Version 0.3.8:
+ - configuring fixed jumbotron
+ - Merge tag '0.3.7' into develop
+ - Merge branch 'release/0.3.7'
+
 Version 0.3.7:
  - adding author cards
  - adding author_generator
