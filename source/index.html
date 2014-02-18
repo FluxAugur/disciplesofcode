@@ -8,28 +8,29 @@ navbar: Blog
     {% assign loopindex = 0 %}
     {% assign rowfinder = 0 %}
     {% for post in site.posts %}
-      {% capture loopindex %}{{ loopindex | plus: 1 }}{% endcapture %}
+      {% capture loopindex %}{{ loopindex | plus:1 }}{% endcapture %}
       {% capture rowfinder %}{{ loopindex | mod: 3 }}{% endcapture %}
       {% if rowfinder == '1' %}
         <div class="row-fluid">
           <div class="{% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-4{% else %}col-md-3{% endunless %}">{% include custom/card_content.html %}</div>
-      {% elsif rowfinder == '2' %}
-          <div class="{% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-4{% else %}col-md-3{% endunless %}">{% include custom/card_content.html %}</div>
-      {% else %}
+      {% elsif rowfinder == '0' %}
           <div class="{% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-4{% else %}col-md-3{% endunless %}">{% include custom/card_content.html %}</div></div>
+      {% else %}
+          <div class="{% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-4{% else %}col-md-3{% endunless %}">{% include custom/card_content.html %}</div>
+      {% endif %}
+      {% if forloop.last and rowfinder != '0' %}
+        </div>
       {% endif %}
     {% endfor %}
-    {% if rowfinder != '0' %}
   </div>
-    {% endif %}
-
-  {% unless site.default_asides == empty and site.blog_index_asides == empty %}
-    <aside class="sidebar col-md-3">
-      {% if site.blog_index_asides.size %}
-        {% include_array blog_index_asides %}
-      {% else %}
-        {% include_array default_asides %}
-      {% endif %}
-    </aside>
-  {% endunless %}
 </div>
+
+{% unless site.default_asides == empty and site.blog_index_asides == empty %}
+  <aside class="sidebar col-md-3">
+    {% if site.blog_index_asides.size %}
+      {% include_array blog_index_asides %}
+    {% else %}
+      {% include_array default_asides %}
+    {% endif %}
+  </aside>
+{% endunless %}

@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "Welcome to Disciples of Code!"
+author: FluxAugur
 date: 2014-02-16 21:18:09 -0500
 comments: true
-categories: [general]
+sharing: true
+categories: [General]
 ---
 Thank you for checking out Disciples of Code.
 
