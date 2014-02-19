@@ -1,3 +1,8 @@
+Version 0.3.10:
+ - added custom 404 page
+ - Merge tag '0.3.9' into develop
+ - Merge branch 'release/0.3.9'
+
 Version 0.3.9:
  - adding & configuring new search
  - adding lunr-js-search, gsl, and others
