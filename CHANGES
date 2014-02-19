@@ -1,3 +1,25 @@
+Version 0.3.9:
+ - adding & configuring new search
+ - adding lunr-js-search, gsl, and others
+ - configuring and styling Google form for contact us functionality
+ - omitting revision code if no revisions present
+ - removing /blog directory and migrating all subdirectories up one level
+ - removing /blog directory and migrating all subdirectories up one level
+ - adding twitter cards and facebook open graph integration
+ - adding img_popup plugin
+ - adding github commit plugin
+ - adding slideshare plugin
+ - adding gravatar plugin
+ - adding google form
+ - adding github repo widget
+ - adding file binder; configuring popular-posts
+ - installing popular-posts
+ - adding custom_post_filers; adding popular-posts gem
+ - adding post revisions
+ - adding calendar aside
+ - Merge tag '0.3.8' into develop
+ - Merge branch 'release/0.3.8'
+
 Version 0.3.8:
  - configuring fixed jumbotron
  - Merge tag '0.3.7' into develop
