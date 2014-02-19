@@ -6,7 +6,8 @@ url: http://disciplesofcode.com
 title: Disciples of Code
 subtitle: Dedicated to those who desire to learn the ways of code.
 author: Nathanial L. McConnell
-simple_search: http://google.com/search
+lunr_search: true
+simple_search: # http://google.com/search
 description: An instructional blog devoted to teaching the ways of code through a collaborative online process.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
@@ -56,8 +57,11 @@ default_asides: [asides/recent_posts.html, custom/asides/popular_posts.html, cus
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
 # blog_index_asides:
-# post_asides:
+post_asides: [custom/asides/related_posts.html, custom/asides/popular_posts.html, asides/recent_posts.html, custom/asides/category_cloud.html, custom/asides/facebook_like.html]
 # page_asides:
+
+# Statistical analysis for searching and related posts.
+lsi: true
 
 # ----------------------- #
 #   3rd Party Settings    #
@@ -100,19 +104,19 @@ google_analytics_tracking_id: UA-48088162-1
 # Custom settings for https://developers.facebook.com/docs/reference/plugins/like-box/
 # the URL of the Facebook Page for this Like Box. Note: After July 2013 migration, href should be
 # an absolute URL.
-facebook_like_box_href: https://www.facebook.com/pages/Disciples-of-Code/583602605048299
+facebook_like_box_href: http://www.facebook.com/disciplesofcode
 # the width of the plugin in pixels. Default width: 300px.
-facebook_like_box_width: 260
+facebook_like_box_width: 300
 # the height of the plugin in pixels. The default height varies based on number of faces to display,
 # and whether the stream is displayed. With the stream displayed, and 10 faces the default height is
 # 556px. With no faces, and no stream the default height is 63px.
-facebook_like_box_height:
+facebook_like_box_height: 260
 # the color scheme for the plugin. Options: 'light', 'dark'
 facebook_like_box_colorschema: dark
 # specifies whether or not to display profile photos in the plugin. Default value: true.
 facebook_like_box_show_faces: true
 # specifies whether to display a stream of the latest posts from the Page's wall.
-facebok_like_box_stream: true
+facebok_like_box_stream: false
 # specifies whether to display the Facebook header at the top of the plugin.
 facebook_like_box_header: false
 # specifies whether or not to show a border around the plugin, default true.
@@ -123,4 +127,4 @@ facebook_like_box_show_border: false
 facebook_like_box_force_wall: false
 # Facebook Insights / Open Graph
 facebook_app_id: 731859596826236
-facebook_page: https://www.facebook.com/pages/Disciples-of-Code/583602605048299
+facebook_page: https://www.facebook.com/disciplesofcode/posts/584189224989637

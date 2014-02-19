@@ -5,15 +5,23 @@ title: Blog Archive
 footer: false
 ---
 
-<div id="blog-archives">
-{% for post in site.posts reverse %}
-{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-{% unless year == this_year %}
-  {% assign year = this_year %}
-  <h2>{{ year }}</h2>
-{% endunless %}
-<article class="page-header">
-  {% include archive_post.html %}
-</article>
-{% endfor %}
+<div class="row-fluid">
+  <div id="blog-archives">
+    <div class="page-content {% unless page.sidebar == false or site.page_asides == empty and site.default_asides == empty %}col-md-1{% else %}col-md-2{% endunless %}">
+      {% capture this_year %}{{ site.posts[0].date | date: "%Y" }}{% endcapture %}
+      {% unless year == this_year %}
+        {% assign year = this_year %}
+        <h2>{{ year }}</h2>
+      {% endunless %}
+    </div>
+    <div class="page-content {% unless page.sidebar == false or site.page_asides == empty and site.default_asides == empty %}col-md-11{% else %}col-md-10{% endunless %}">
+      {% for post in site.posts reverse %}
+      <div class="row-fluid">
+        <article class="page-header">
+          {% include archive_post.html %}
+        </article>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
 </div>

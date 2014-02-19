@@ -16,7 +16,9 @@
 <!-- jQuery Form Validation Plugin -->
 <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/jquery.validate.min.js"></script> 
 <script src="{{ root_url }}/javascripts/google_form.js"></script>
+
 <!-- Social media content metadata -->
+
 {% if site.facebook_app_id %}
 <meta property="fb:admins" content="{{ site.facebook_app_id }}" />
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
@@ -26,6 +28,7 @@
 <meta property="og:author" content="{{ site.facebook_page }}" />
 {% if page.facebook.image %}<meta property="og:image" content="{{ page.facebook.image }}" />{% endif %}
 {% endif %}
+
 {% if site.twitter_user %}
 <meta property="twitter:card" content="{% if page.twitter_card.type %}{{ page.twitter_card.type}}{% else %}summary{% endif %}" />
 <meta property="twitter:site" content="{{ site.twitter_user }}" />
@@ -35,3 +38,5 @@
 <meta property="twitter:creator" content="{% if page.twitter_card.creator %}{{ page.twitter_card.creator }}{% else %}{{ site.twitter_user }}{% endif %}" />
 {% if page.twitter_card.image %}<meta property="twitter:image:src" content="{{ page.twitter_card.image }}" />{% endif %}
 {% endif %}
+
+{% include custom/lunr-search/search-results-template.html %}
