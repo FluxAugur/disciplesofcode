@@ -6,9 +6,9 @@ navbar: Blog
 <div class="page-content {% unless about.sidebar == false or site.about_asides == empty and site.default_asides == empty %}col-md-9{% else %}col-md-12{% endunless %}">
   <div class="row-fluid">
     <div class="{% unless about.sidebar == false or site.about_asides == empty and site.default_asides == empty %}col-md-4{% else %}col-md-3{% endunless %}">
-        <div class="row-fluid">
-          {% include custom/card_author.html %}
-        </div>
+      <div class="row-fluid">
+        {% include custom/card_author.html %}
+      </div>
     </div>
     <div class="{% unless about.sidebar == false or site.about_asides == empty and site.default_asides == empty %}col-md-8{% else %}col-md-6{% endunless %}">
       <div class="row-fluid">

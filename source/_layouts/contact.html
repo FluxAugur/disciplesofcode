@@ -1,0 +1,32 @@
+---
+layout: default
+navbar: Blog
+---
+
+<div class="page-content {% unless about.sidebar == false or site.about_asides == empty and site.default_asides == empty %}col-md-9{% else %}col-md-12{% endunless %}">
+  <div class="row-fluid">
+    <div class="{% unless about.sidebar == false or site.about_asides == empty and site.default_asides == empty %}col-md-4{% else %}col-md-3{% endunless %}">
+      <div class="row-fluid">
+      </div>
+    </div>
+    <div class="{% unless about.sidebar == false or site.about_asides == empty and site.default_asides == empty %}col-md-8{% else %}col-md-6{% endunless %}">
+      <div class="row-fluid">
+        <blockquote>
+          <h2>Make Contact</h2>
+          <hr>
+          {% google_form 18pu67lSnbc8XDx75dgxClMkNMM66alubmDPTcwiAoTw Thank you for contacting us. Someone will be in touch with you soon. %}
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% unless contact.sidebar == false or site.contact_asides == empty and site.default_asides == empty %}
+  <aside class="sidebar col-md-3">
+    {% if site.contact_asides.size %}
+      {% include_array contact_asides %}
+    {% else %}
+      {% include_array default_asides %}
+    {% endif %}
+  </aside>
+{% endunless %}

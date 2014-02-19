@@ -121,3 +121,45 @@ div.jumbotron.shrink .btn {
 div.jumbotron.shrink .container {
   max-width: 100%;
 }
+
+.google-form-wrapper {
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  .errorbox-good {
+    margin-bottom: 20px;
+  }
+  .success-msg {
+    display: none;
+  }
+  .ss-form-entry {
+    margin-bottom: 50px;
+
+    label {
+      display: inline;
+    }
+    input {
+      display: block;
+      padding: 5px;
+      width: 450px;
+      font: inherit;
+    }
+    textarea {
+      width: 450px;
+      padding: 5px;
+      font: inherit;
+    }
+  }
+  .ss-navigate input {
+    width: auto;
+    cursor: pointer;
+  }
+  .ss-required-asterisk {
+    visibility: hidden;
+  }
+  #ss-submit {
+    background-image: linear-gradient(#8a9196,#7a8288 60%,#70787d);
+    background-repeat: no-repeat;
+  }
+}

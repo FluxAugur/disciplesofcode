@@ -15,10 +15,13 @@
                     <a href="{{ root_url }}/">Blog</a>
                 </li>
                 <li {% if page.navbar == 'Archives' %}class="active"{% endif %}>
-                    <a href="{{ root_url }}/blog/archives">Archives</a>
+                    <a href="{{ root_url }}/archives">Archives</a>
                 </li>
                 <li {% if page.navbar == 'About' %}class="active"{% endif %}>
                     <a href="{{ root_url }}/about.html">About</a>
+                </li>
+                <li {% if page.navbar == 'Contact' %}class="active"{% endif %}>
+                    <a href="{{ root_url }}/contact.html">Contact</a>
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -44,6 +47,9 @@
                         <input class="form-control" type="text" name="q" placeholder="Search">
                     </div>
                 </form>
+            {% endif %}
+            {% if site.lunr_search == true %}
+                {% include custom/lunr-search/search-form.html %}
             {% endif %}
         </div>
     </div>

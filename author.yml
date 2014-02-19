@@ -1,6 +1,13 @@
 FluxAugur:
-    name: Nathanial L. McConnell
-    twitter: fluxaugur
-    email: fluxaugur@gmail.com
-    blog: disciplesofcode.com
-    description: "Founder of disciplesofcode.com"
+  name: Nathanial L. McConnell
+  twitter: fluxaugur
+  email: fluxaugur@gmail.com
+  blog: disciplesofcode.com
+  description: "Founder of disciplesofcode.com"
+Disciples of Code:
+  name: Disciples of Code
+  twitter: disciplesofcode
+  email: guru@disciplesofcode.com
+  blog: disciplesofcode.com
+  description: "Disciples of Code"
+  
