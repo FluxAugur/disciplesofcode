@@ -11,12 +11,12 @@ single: true
       <div class="row-fluid">
         <footer>
           <div class="row-fluid" style="padding-top: 10px;">
-            <div class="col-md-2" style="bottom: 3px;">
+            <div class="col-md-6" style="bottom: 3px;">
               {% unless page.sharing == false %}
                 {% include post/sharing.html %}
               {% endunless %}
             </div>
-            <div class="col-md-10">
+            <div class="col-md-6">
               <p class="meta text-muted text-right">
                 {% include post/author.html %}
                 {% include post/date.html %}
@@ -25,6 +25,7 @@ single: true
                 {% else %}
                   {{ time }}
                 {% endif %}
+                <br>
                 {% include post/categories.html %}
               </p>
             </div>
