@@ -1,3 +1,10 @@
+Version 0.3.11:
+ - Merge pull request #8 from FluxAugur/feature/adding-flattr
+ - adding files to enable flattr
+ - removing extraneous images
+ - Merge tag '0.3.10' into develop
+ - Merge branch 'release/0.3.10'
+
 Version 0.3.10:
  - added custom 404 page
  - Merge tag '0.3.9' into develop
