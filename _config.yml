@@ -34,7 +34,7 @@ destination: public
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
-markdown: rdiscount
+markdown: kramdown
 rdiscount:
   extensions:
     - autolink
@@ -127,7 +127,16 @@ facebook_like_box_show_border: false
 facebook_like_box_force_wall: false
 # Facebook Insights / Open Graph
 facebook_app_id: 731859596826236
-facebook_page: https://www.facebook.com/disciplesofcode/posts/584189224989637
+facebook_page: https://www.facebook.com/disciplesofcode
+
+# Facebook Facepile
+facebook_facepile_href: http://facebook.com/disciplesofcode
+facebook_facepile_action: like
+facebook_facepile_width: 278
+facebook_facepile_height: 300
+facebook_facepile_colorscheme: dark
+facebook_facepile_size: small
+facebook_facepile_show_count: true
 
 # Flattr
 flattr_user: FluxAugur

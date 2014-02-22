@@ -1,0 +1,22 @@
+{% if site.flattr_user %}
+  <script id='fb155t0'>
+    (function(i) {
+      var f, s = document.getElementById(i);
+      f = document.createElement('iframe');
+      f.src = '//api.flattr.com/button/view/?' +
+        'url={{ site.url }}{{ page.url }}&' +
+        'uid={{ site.flattr_user }}&' +
+        'title={{ page.title }}&' +
+        'description=' + document.getElementsByClassName('entry-content')[0].innerText + '&' +
+        'category=text&' +
+        'tags={{ page.categories | join: "," }}&' +
+        'button=compact';
+      f.height = 20;
+      f.width = 110;
+      f.style.borderWidth = 0;
+      s.parentNode.insertBefore(f, s);
+    })('fb155t0');
+  </script>
+  {% include flattr_param.html %}
+  <link rel="payment" href="https://flattr.com/submit/auto?{{ flattr_param }}" type="text/html" />
+{% endif %}
