@@ -6,12 +6,6 @@ date: 2014-02-17 17:50:26 -0500
 comments: true
 sharing: true
 categories: [Coding, Learning, Rhetoric, Teaching, Why]
-facebook:
-  image:
-twitter_card:
-  creator: fluxaugur
-  type: summary_large_image
-  image:
 ---
 <h3>Part 2: Decoding the Why</h3><br>
 <p>You can launch your favorite web browser and do an Internet search, and find any number of individuals and organizations offering reason after reason that learning to code is important. You can most likely find an equal number offering an opposing opinion. <!--more-->Of course, like with nearly all subjects of grand relevance, what this really means is that the 'Why' to the importance of coding, is up to you. And with any endeavor, the end result and polished nature of the output is nowhere near as significant as the attitude and approach of the individual undertaking the task. As such, I can only offer you a few of my own personal WHYs, and let you decide what value learning to code has to you.</p><br>
