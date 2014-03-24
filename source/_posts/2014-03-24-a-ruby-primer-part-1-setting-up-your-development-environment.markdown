@@ -20,13 +20,15 @@ The easiest way to install Ruby on Windows is by using the [RubyInstaller](http:
 
 - #### Installing Ruby on OS X or Linux
 The easiest way to install Ruby on OS X or Linux is by using the [Ruby Version Manager (RVM)](http://rvm.io/). To do so, open a Terminal window and execute the following command.
-``` bash
+
+``` bash Installing RVM and Ruby
 $ \curl -sSL https://get.rvm.io | bash -s stable --ruby
 ```
 
 Once you have Ruby installed, you can verify your installation (and check the Ruby version) by opening up a Terminal window (OS X or Linux) or a Command Prompt (Windows) and typing the following command on your command line.
-``` bash
-ruby -v
+
+``` bash Checking your Ruby version
+$ ruby -v
 ```
 
 Congratulations! You're ready to get started with Ruby.
