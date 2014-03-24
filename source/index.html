@@ -1,40 +1,29 @@
 ---
 layout: default
-navbar: Blog
-title: "Disciples of Code"
-comments: false
-sharing: false
-footer: true
 ---
 
-<div class="page-content {% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-9{% else %}col-md-12{% endunless %}">
-  <div class="blog-index">
-    {% assign loopindex = 0 %}
-    {% assign rowfinder = 0 %}
-    {% for post in site.posts %}
-      {% capture loopindex %}{{ loopindex | plus:1 }}{% endcapture %}
-      {% capture rowfinder %}{{ loopindex | mod: 3 }}{% endcapture %}
-      {% if rowfinder == '1' %}
-        <div class="row-fluid">
-          <div class="{% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-4{% else %}col-md-3{% endunless %}">{% include custom/card_content.html %}</div>
-      {% elsif rowfinder == '0' %}
-          <div class="{% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-4{% else %}col-md-3{% endunless %}">{% include custom/card_content.html %}</div></div>
-      {% else %}
-          <div class="{% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-4{% else %}col-md-3{% endunless %}">{% include custom/card_content.html %}</div>
-      {% endif %}
-      {% if forloop.last and rowfinder != '0' %}
-        </div>
-      {% endif %}
-    {% endfor %}
+<div class="blog-index">
+  {% assign index = true %}
+  {% for post in paginator.posts %}
+  {% assign content = post.content %}
+    <article>
+      {% include article.html %}
+    </article>
+  {% endfor %}
+  <div class="pagination">
+    {% if paginator.next_page %}
+      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
+    {% endif %}
+    <a href="/archives">Blog Archives</a>
+    {% if paginator.previous_page %}
+    <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
+    {% endif %}
   </div>
 </div>
-
-{% unless site.default_asides == empty and site.blog_index_asides == empty %}
-  <aside class="sidebar col-md-3">
-    {% if site.blog_index_asides.size %}
-      {% include_array blog_index_asides %}
-    {% else %}
-      {% include_array default_asides %}
-    {% endif %}
-  </aside>
-{% endunless %}
+<aside class="sidebar">
+  {% if site.blog_index_asides.size %}
+    {% include_array blog_index_asides %}
+  {% else %}
+    {% include_array default_asides %}
+  {% endif %}
+</aside>
