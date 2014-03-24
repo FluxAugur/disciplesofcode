@@ -25,7 +25,7 @@ The easiest way to install Ruby on OS X or Linux is by using the [Ruby Version M
 $ \curl -sSL https://get.rvm.io | bash -s stable --ruby
 ```
 
-Once you have Ruby installed, you can verify your installation (and check the Ruby version) by opening up a Terminal window (OS X or Linux) or a Command Prompt (Windows) and typing the following command on your command line.
+Once you have Ruby installed, you can verify your installation (and check the Ruby version) by opening up a Terminal window (OS X or Linux) or a Command Prompt (Windows) and executing the following command on your command line.
 
 ``` bash Checking your Ruby version
 $ ruby -v
