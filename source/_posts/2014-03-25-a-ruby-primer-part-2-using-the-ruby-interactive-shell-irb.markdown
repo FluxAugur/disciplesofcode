@@ -7,7 +7,7 @@ comments: true
 sharing: true
 categories: [Coding, Learning, Teaching, How, Code, Ruby]
 ---
-### Part 2: using the Ruby Interactive Shell (IRB)
+### Part 2: Using the Ruby Interactive Shell (IRB)
 
 If you have not yet set up your development environment, please refer to [Part 1]({{ root_url }}/blog/2014/03/a-ruby-primer-part-1-setting-up-your-development-environment/) of this primer.
 
