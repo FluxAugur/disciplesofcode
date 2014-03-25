@@ -7,8 +7,6 @@ comments: true
 sharing: true
 categories: [Coding, Learning, Teaching, How, Code, Ruby]
 ---
-### Part 1: Setting Up Your Development Environment
-
 The first step to learning Ruby (or any programming language) is to set up your development environment, so let's dive right in.
 
 The simplest method is to use a free, online development environment, such as those provided by [Koding.com](https://koding.com/R/nathanialmcconnell). If you have already signed up for a [GitHub](https://github.com/) account (which is highly recommended for source control and for sharing your code), you can sign up for Koding.com using your GitHub account credentials. As part of our goal of collaborative learning, we will be using both Koding.com and GitHub in the future, but neither are required to be able to complete this Ruby primer.

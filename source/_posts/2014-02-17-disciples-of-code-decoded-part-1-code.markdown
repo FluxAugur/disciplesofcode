@@ -7,8 +7,6 @@ comments: true
 sharing: true
 categories: [Coding, Learning, Rhetoric, Teaching, What]
 ---
-### Part 1: Code?
-
 I say 'code', you say 'program'. He says 'script', she says 'app'. Does it matter? Putting aside the many technical definitions and nuances, in practice these terms are nearly synonymous — at least to a general audience. What we're really talking about is machine language, or a way of communicating with machines (e.g., computers) by combining a set of symbols, words, and statements according to certain predefined rules.
 
 {% blockquote Poe, Wild %}

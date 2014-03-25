@@ -7,8 +7,6 @@ comments: true
 sharing: true
 categories: [Coding, Learning, Rhetoric, Teaching, How]
 ---
-### Part 3: Discipline as Disciples
-
 So you are ready to begin your journey and learn to code, but you don't know where to begin. Of course, information is free, for those willing to find it, but not all information is as valuable or worthwhile when you are just starting out. At this point, you can't tell bad code from good. You have no idea whether you should start out by thumbing through some massive tome of seemingly arcane jargon in an attempt to glean some tidbit of understanding, or simply fire up your trusty Internet search engine and dive in head-first.
 
 Here's where I have to throw out a few caveats. If you want to reap all of the benefits outlined in [Part 2]({{ root_url }}/2014/02/disciples-of-code-decoded-part-2-decoding-the-why/) (and many, many more), you're going to have to put forth a not insignificant amount of effort. You need to learn the correct way of communicating before you can make the machines sing. You need to gain a deep understanding of the methodology and purpose behind each symbol, word, or sentence to be able to fluently and effortlessly convey your own meaning. And all of this takes discipline. You must make the decision now to set aside some time every day to learn and practice, to sharpen and reinforce, to improve. But don't worry, before you know it, you'll be writing code in your spare time just for the joy of it. Trust me.
