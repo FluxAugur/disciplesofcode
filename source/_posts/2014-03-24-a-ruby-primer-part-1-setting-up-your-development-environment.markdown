@@ -31,4 +31,4 @@ Once you have Ruby installed, you can verify your installation (and check the Ru
 $ ruby -v
 ```
 
-Congratulations! You're ready to get started with Ruby. In [Part 2]({{ root_url }}/blog/2014/03/a-ruby-primer-part-2-using-the-ruby-interactive-shell-irb/) of this primer, we will explore using the Ruby Interactive Shell (IRB).
+Congratulations! You're ready to get started with Ruby. In [Part 2]({{ root_url }}/2014/03/a-ruby-primer-part-2-using-the-ruby-interactive-shell-irb/) of this primer, we will explore using the Ruby Interactive Shell (IRB).
