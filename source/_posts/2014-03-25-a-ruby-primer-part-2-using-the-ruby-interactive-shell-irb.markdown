@@ -72,7 +72,7 @@ irb(main):011:0> greeting + ", " + subject
 
 Complex expressions can be evaluated. (Don't worry too much about what exactly is happening here, as it will be covered in-depth in future parts of this Ruby primer.)
 
-``` Evaluating a complex expression
+``` bash Evaluating a complex expression
 irb(main):012:0> i = 1
 => 1
 irb(main):013:0> while i < 100
