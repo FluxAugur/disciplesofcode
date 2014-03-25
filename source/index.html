@@ -20,7 +20,7 @@ footer: true
       {% elsif rowfinder == '0' %}
           <div class="{% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-4{% else %}col-md-3{% endunless %}">{% include custom/card_content.html %}</div></div>
       {% else %}
-        <div class="{% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-4{% else %}col-md-3{% endunless %}">{% include custom/card_content.html %}</div>
+          <div class="{% unless site.default_asides == empty and site.blog_index_asides == empty %}col-md-4{% else %}col-md-3{% endunless %}">{% include custom/card_content.html %}</div>
       {% endif %}
       {% if forloop.last and rowfinder != '0' %}
         </div>
