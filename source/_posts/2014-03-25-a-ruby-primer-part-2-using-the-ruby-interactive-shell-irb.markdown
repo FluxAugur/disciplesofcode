@@ -5,7 +5,7 @@ author: FluxAugur
 date: 2014-03-25 04:29:18 -0400
 comments: true
 sharing: true
-categories: [Coding, Learning, Teaching, How, Code, Ruby]
+categories: [Coding, Learning, Teaching, How, Code, Ruby, IRB]
 ---
 ### Part 2: Using the Ruby Interactive Shell (IRB)
 
