@@ -1,3 +1,42 @@
+Version 0.3.13:
+ - updating Google tracking code
+ - adding exercise 1
+ - updating flattr URI
+ - adding part 4 of "A Ruby Primer" and updating links
+ - finish part 3
+ - adding part 3 of "A Ruby Primer" and updating links
+ - removing extraneous headings
+ - updating links
+ - restoring old source and adding Ruby primer posts back
+ - fixing octopress source update
+ - adding categories
+ - Merge pull request #12 from FluxAugur/feature/adding-ruby-primer-part-2
+ - finishing part 2
+ - updating code block formatting
+ - adding part 2 and adding links to part 1
+ - updating ruby primer part 1 post
+ - Merge pull request #11 from FluxAugur/feature/adding-Ruby-primer-blog-post
+ - updating post
+ - Merge pull request #10 from FluxAugur/feature/updating-octopress
+ - updating source
+ - resolving merge conflict
+ - updating post
+ - adding Ruby primer, part 1
+ - Merge pull request #1515 from rythie/master
+ - Use HTTPS for google webfonts when on HTTPS site
+ - Default to HTTPS for google searches
+ - Merge pull request #1506 from duckpuppy/handle-multiple-redirects
+ - gist_plugin: Handle multiple redirects, stopping if we find a circular reference
+ - adding Creative Commons license
+ - Fixed the expand_url filter. Finally.
+ - Removed accidental call to expand_url
+ - Ignore protocol relative '//' urls.
+ - fixing issue with 404 page
+ - fixing issue with 404 page
+ - updating rakefile
+ - Merge tag '0.3.12' into develop
+ - Merge branch 'release/0.3.12'
+
 Version 0.3.12:
  - adding images
  - editing
