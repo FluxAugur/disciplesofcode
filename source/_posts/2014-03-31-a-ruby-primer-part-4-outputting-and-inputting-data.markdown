@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "A Ruby Primer - Part 4: Outputting and Inputting Data"
-date: 2014-03-31 00:03:03 -0400
 author: FluxAugur
+date: 2014-03-31 00:03:03 -0400
 comments: true
 sharing: true
 categories: [Coding, Learning, Teaching, How, Code, Ruby, IRB, Output, Input]
@@ -164,6 +164,8 @@ Superman
 
 If we don't want to display the appended newline character, we can use the `chomp` method.
 
+From IRB, let's see the `chomp` method in action.
+
 ```
 irb(main):020:0> print name.chomp
 Superman=> nil
@@ -214,6 +216,8 @@ irb(main):028:0> number1 + number3
 
 If we want to perform mathematical calculations on integers or floating point numbers input using the `gets` command, we need to convert the string that is returned from the `gets` command. We can do this by using the `Integer` and `Float` methods. Alternatively, we can use the `to_i` and `to_f` methods.
 
+From IRB, let's see the `Integer`, `Float1`, `to_i`, and `to_s` methods in action.
+
 ``` bash Converting and using numeric data input with the gets method
 irb(main):029:0> Integer(number1)
 => 1
@@ -227,6 +231,24 @@ irb(main):033:0> numberPi.to_f + number2.to_i
 => 5.14159
 ```
 
+#### The to_s Method (for floats)
+> **Method Signatures:**
+> - to_s -> string [Ruby documentation](http://www.ruby-doc.org/core-2.1.1/Float.html#method-i-to_s)
+
+Ruby doesn't know how to implicitly convert a float into a string. However, Ruby does provide us with the `to_s` method to accomplish this.
+
+From IRB, let's see the `to_s` method in action.
+
+``` bash Outputting floats using the to_s method
+irb(main):034:0> result = numberPi.to_f + number2.to_i
+=> 5.14159
+irb(main):035:0> result.to_s
+=> "5.14159"
+irb(main):036:0> puts result.to_s
+5.14159
+=> nil
+```
+
 Congratulations! You have learned how to output and input data, as well as how to do simple conversion of strings into integers and floats.
 
 ### A Ruby Primer
@@ -238,3 +260,5 @@ In [Part 2]({{ root_url }}/2014/03/a-ruby-primer-part-2-using-the-ruby-interacti
 In [Part 3]({{ root_url }}/2014/03/a-ruby-primer-part-3-ruby-scripts/) of this primer, you can learn how to run Ruby programs (scripts).
 
 In [Part 4]({{ root_url }}/2014/03/a-ruby-primer-part-4-outputting-and-inputting-data/) of this primer, you can learn how to output and input data, as well as how to do simple conversion of strings into integers and floats.
+
+In [Exercise 1]({{ root_url }}/2014/03/a-ruby-primer-exercise-1-a-simple-command-line-calculator/) of this primer, you can learn how to create a simple command line calculator.
