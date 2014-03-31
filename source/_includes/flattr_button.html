@@ -7,7 +7,7 @@
         'url={{ site.url }}{{ page.url }}&' +
         'uid={{ site.flattr_user }}&' +
         'title={{ page.title }}&' +
-        'description=' + document.getElementsByClassName('entry-content')[0].innerText + '&' +
+        'description=' + document.getElementsByClassName('entry-content')[0].innerText.substr(0,100) + '&' +
         'category=text&' +
         'tags={{ page.categories | join: "," }}&' +
         'button=compact';
