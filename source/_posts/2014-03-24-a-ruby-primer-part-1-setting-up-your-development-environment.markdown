@@ -11,22 +11,33 @@ The first step to learning Ruby (or any programming language) is to set up your 
 
 The simplest method is to use a free, online development environment, such as those provided by [Koding.com](https://koding.com/R/nathanialmcconnell). If you have already signed up for a [GitHub](https://github.com/) account (which is highly recommended for source control and for sharing your code), you can sign up for Koding.com using your GitHub account credentials. As part of our goal of collaborative learning, we will be using both Koding.com and GitHub in the future, but neither are required to be able to complete this Ruby primer.
 
+### Installing Ruby
+
 The alternative to using an online development environment is to install Ruby on your local development machine (e.g. your desktop or laptop computer).
 
-- #### Installing Ruby on Windows
-The easiest way to install Ruby on Windows is by using the [RubyInstaller](http://rubyinstaller.org/). We will be using Ruby 2.0.0-p451 (patch level 451 of Ruby version 2.0.0). Simply download the [32-bit](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p451.exe?direct) or [64-bit](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p451-x64.exe?direct) versions of the RubyInstaller, and run the downloaded program. When presented with the Setup dialog box, please *select* **all** of the given options (as indicated in the following screenshot).
+#### Installing Ruby on Windows
+> The easiest way to install Ruby on Windows is by using the [RubyInstaller](http://rubyinstaller.org/). We will be using Ruby 2.0.0-p451 (patch level 451 of Ruby version 2.0.0). Simply download the [32-bit](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p451.exe?direct) or [64-bit](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p451-x64.exe?direct) versions of the RubyInstaller, and run the downloaded program. When presented with the Setup dialog box, please *select* **all** of the given options (as indicated in the following screenshot).
 
-- #### Installing Ruby on OS X or Linux
-The easiest way to install Ruby on OS X or Linux is by using the [Ruby Version Manager (RVM)](http://rvm.io/). To do so, open a Terminal window and execute the following command.
+#### Installing Ruby on OS X or Linux
+> The easiest way to install Ruby on OS X or Linux is by using the [Ruby Version Manager (RVM)](http://rvm.io/). To do so, open a Terminal window and execute the following command.
 
 ``` bash Installing RVM and Ruby
 $ \curl -sSL https://get.rvm.io | bash -s stable --ruby
 ```
 
+### Verifying Your Ruby Installation
 Once you have Ruby installed, you can verify your installation (and check the Ruby version) by opening up a Terminal window (OS X or Linux) or a Command Prompt (Windows) and executing the following command on your command line.
 
 ``` bash Checking your Ruby version
 $ ruby -v
 ```
 
-Congratulations! You're ready to get started with Ruby. In [Part 2]({{ root_url }}/2014/03/a-ruby-primer-part-2-using-the-ruby-interactive-shell-irb/) of this primer, we will explore using the Ruby Interactive Shell (IRB).
+Congratulations! You're ready to get started with Ruby.
+
+### A Ruby Primer
+
+In [Part 1]({{ root_url }}/2014/03/a-ruby-primer-part-1-setting-up-your-development-environment/) of this primer, you can learn how to set up your development environment.
+
+In [Part 2]({{ root_url }}/2014/03/a-ruby-primer-part-2-using-the-ruby-interactive-shell-irb/) of this primer, you can explore using the Ruby Interactive Shell (IRB).
+
+In [Part 3]({{ root_url }}/2014/03/a-ruby-primer-part-3-ruby-scripts/) of this primer, you can learn how to run Ruby programs (scripts).

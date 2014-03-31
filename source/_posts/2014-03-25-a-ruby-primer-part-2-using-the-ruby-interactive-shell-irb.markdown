@@ -9,6 +9,8 @@ categories: [Coding, Learning, Teaching, How, Code, Ruby, IRB]
 ---
 If you have not yet set up your development environment, please refer to [Part 1]({{ root_url }}/2014/03/a-ruby-primer-part-1-setting-up-your-development-environment/) of this primer.
 
+### Using IRB
+
 The Ruby Interactive Shell, or IRB, provides a command line with which we can immediately evaluate a Ruby statement or expression. To load IRB, open a Terminal window (OS X or Linux) or a Command Prompt (Windows), and execute the following command.
 
 ``` bash Loading IRB
@@ -107,3 +109,11 @@ $
 ```
 
 Congratulation! You have just gotten your feet wet using Ruby and the Ruby Interactive Shell (IRB).
+
+### A Ruby Primer
+
+In [Part 1]({{ root_url }}/2014/03/a-ruby-primer-part-1-setting-up-your-development-environment/) of this primer, you can learn how to set up your development environment.
+
+In [Part 2]({{ root_url }}/2014/03/a-ruby-primer-part-2-using-the-ruby-interactive-shell-irb/) of this primer, you can explore using the Ruby Interactive Shell (IRB).
+
+In [Part 3]({{ root_url }}/2014/03/a-ruby-primer-part-3-ruby-scripts/) of this primer, you can learn how to run Ruby programs (scripts).
