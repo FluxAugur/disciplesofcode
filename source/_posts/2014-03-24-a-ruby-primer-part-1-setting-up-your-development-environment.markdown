@@ -32,7 +32,7 @@ Once you have Ruby installed, you can verify your installation (and check the Ru
 $ ruby -v
 ```
 
-Congratulations! You're ready to get started with Ruby.
+Congratulations! You have set up your development environment and are ready to get started with Ruby.
 
 ### A Ruby Primer
 
@@ -41,3 +41,5 @@ In [Part 1]({{ root_url }}/2014/03/a-ruby-primer-part-1-setting-up-your-developm
 In [Part 2]({{ root_url }}/2014/03/a-ruby-primer-part-2-using-the-ruby-interactive-shell-irb/) of this primer, you can explore using the Ruby Interactive Shell (IRB).
 
 In [Part 3]({{ root_url }}/2014/03/a-ruby-primer-part-3-ruby-scripts/) of this primer, you can learn how to run Ruby programs (scripts).
+
+In [Part 4]({{ root_url }}/2014/03/a-ruby-primer-part-4-outputting-and-inputting-data/) of this primer, you can learn how to output and input data, as well as how to do simple conversion of strings into integers and floats.

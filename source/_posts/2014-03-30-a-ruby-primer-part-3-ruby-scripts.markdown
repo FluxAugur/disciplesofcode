@@ -5,7 +5,7 @@ author: FluxAugur
 date: 2014-03-30 22:30:32 -0400
 comments: true
 sharing: true
-categories: [Coding, Learning, Teaching, How, Code, Ruby]
+categories: [Coding, Learning, Teaching, How, Code, Ruby, Scripts]
 ---
 If you have not yet set up your development environment, please refer to [Part 1]({{ root_url }}/2014/03/a-ruby-primer-part-1-setting-up-your-development-environment/) of this primer.
 
@@ -59,3 +59,5 @@ In [Part 1]({{ root_url }}/2014/03/a-ruby-primer-part-1-setting-up-your-developm
 In [Part 2]({{ root_url }}/2014/03/a-ruby-primer-part-2-using-the-ruby-interactive-shell-irb/) of this primer, you can explore using the Ruby Interactive Shell (IRB).
 
 In [Part 3]({{ root_url }}/2014/03/a-ruby-primer-part-3-ruby-scripts/) of this primer, you can learn how to run Ruby programs (scripts).
+
+In [Part 4]({{ root_url }}/2014/03/a-ruby-primer-part-4-outputting-and-inputting-data/) of this primer, you can learn how to output and input data, as well as how to do simple conversion of strings into integers and floats.

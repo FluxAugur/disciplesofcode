@@ -33,11 +33,11 @@ irb(main):001:0> 1
 An arithmetic expression evaluates to the result of the expression, taking into account order of precedence of arithmetic operators (more on this in future parts of the Ruby primer).
 
 ``` bash Evaluation of an arithmetic expression
-irb(main):002:0> 1+2
+irb(main):002:0> 1 + 2
 => 3
-irb(main):003:0> 3*3
+irb(main):003:0> 3 * 3
 => 9
-irb(main):004:0> 1+2*3
+irb(main):004:0> 1 + 2 * 3
 => 7
 ```
 
@@ -117,3 +117,5 @@ In [Part 1]({{ root_url }}/2014/03/a-ruby-primer-part-1-setting-up-your-developm
 In [Part 2]({{ root_url }}/2014/03/a-ruby-primer-part-2-using-the-ruby-interactive-shell-irb/) of this primer, you can explore using the Ruby Interactive Shell (IRB).
 
 In [Part 3]({{ root_url }}/2014/03/a-ruby-primer-part-3-ruby-scripts/) of this primer, you can learn how to run Ruby programs (scripts).
+
+In [Part 4]({{ root_url }}/2014/03/a-ruby-primer-part-4-outputting-and-inputting-data/) of this primer, you can learn how to output and input data, as well as how to do simple conversion of strings into integers and floats.
