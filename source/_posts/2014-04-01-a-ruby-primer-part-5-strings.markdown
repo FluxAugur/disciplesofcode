@@ -5,7 +5,7 @@ author: FluxAugur
 date: 2014-04-01 23:21:05 -0400
 comments: true
 sharing: true
-categories: [Coding, Learning, Teaching, How, Code, Ruby, IRB, Strings]
+categories: [Coding, Learning, Teaching, How, Code, Ruby, IRB, Strings, Data Types]
 ---
 If you have not yet set up your development environment, please refer to [Part 1]({{ root_url }}/2014/03/a-ruby-primer-part-1-setting-up-your-development-environment/) of this primer.
 
@@ -171,3 +171,5 @@ In [Part 4]({{ root_url }}/2014/03/a-ruby-primer-part-4-outputting-and-inputting
 In [Exercise 1]({{ root_url }}/2014/03/a-ruby-primer-exercise-1-a-simple-command-line-calculator/) of this primer, you can learn how to create a simple command line calculator.
 
 In [Part 5]({{ root_url }}/2014/04/a-ruby-primer-part-5-strings/) of this primer, you can learn about strings.
+
+In [Part 6]({{ root_url }}/2014/04/a-ruby-primer-part-6-numbers/) of this primer, you can learn about numbers.
