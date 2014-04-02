@@ -205,13 +205,13 @@ irb(main):024:0> number1 = gets
 irb(main):025:0> number2 = gets
 2
 => "2\n"
-irb(main):026:0> numberPi = gets
-3.14159
-=> "3.14259\n"
+irb(main):026:0> numberTau = gets
+6.28319
+=> "6.28319\n"
 irb(main):027:0> number1 + number2
 => "1\n2\n"
-irb(main):028:0> number1 + number3
-=> "1\n3.14159\n"
+irb(main):028:0> number1 + numberTau
+=> "1\n6.28319\n"
 ```
 
 #### The Integer, Float, to_i, and to_f Methods
@@ -236,10 +236,10 @@ irb(main):030:0> number2.to_i
 => 2
 irb(main):031:0> number1.to_i + Integer(number2)
 => 3
-irb(main):032:0> Float(numberPi)
-=> 3.14159
-irb(main):033:0> numberPi.to_f + number2.to_i
-=> 5.14159
+irb(main):032:0> Float(numberTau)
+=> 6.28319
+irb(main):033:0> numberTau.to_f + number2.to_i
+=> 8.28319
 ```
 
 #### The to_s Method (for floats)
@@ -252,12 +252,12 @@ Ruby doesn't know how to implicitly convert a float into a string. However, Ruby
 From IRB, let's see the `to_s` method in action.
 
 ``` irb Outputting floats using the to_s method
-irb(main):034:0> result = numberPi.to_f + number2.to_i
-=> 5.14159
+irb(main):034:0> result = numberTau.to_f + number2.to_i
+=> 8.28319
 irb(main):035:0> result.to_s
-=> "5.14159"
+=> "8.28319"
 irb(main):036:0> puts result.to_s
-5.14159
+8.28319
 => nil
 ```
 

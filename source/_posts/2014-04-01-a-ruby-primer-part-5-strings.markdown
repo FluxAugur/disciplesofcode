@@ -26,7 +26,7 @@ If you are unfamiliar with using the Ruby Interactive Shell, please refer to [Pa
 
 String literals in Ruby can be created using either single or double quotes (e.g. "Clark" or 'Kent'). Any characters that are encompassed withing single or double quotes is considered a string. In [Part 4]({{ root_url }}/2014/03/a-ruby-primer-part-4-outputting-and-inputting-data/) of this primer, we also saw that we can use the `gets` method to get a data from the standard input as a string. (*Remember, the `gets` method appends a newline character to each string input.*)
 
-From IRB, let's see this in action.
+From IRB, let's see string literals in action.
 
 ``` irb Strings with single or double quotes
 irb(main):001:0> name = 'Clark'
