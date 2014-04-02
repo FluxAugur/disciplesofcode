@@ -46,4 +46,4 @@ In [Part 4]({{ root_url }}/2014/03/a-ruby-primer-part-4-outputting-and-inputting
 
 In [Exercise 1]({{ root_url }}/2014/03/a-ruby-primer-exercise-1-a-simple-command-line-calculator/) of this primer, you can learn how to create a simple command line calculator.
 
-In [Part 5]({{ root_url }}/2014/03/a-ruby-primer-part-5-strings/) of this primer, you can learn about strings.
+In [Part 5]({{ root_url }}/2014/04/a-ruby-primer-part-5-strings/) of this primer, you can learn about strings.
