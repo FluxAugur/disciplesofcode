@@ -160,3 +160,5 @@ In [Exercise 1]({{ root_url }}/2014/03/a-ruby-primer-exercise-1-a-simple-command
 In [Part 5]({{ root_url }}/2014/04/a-ruby-primer-part-5-strings/) of this primer, you can learn about strings.
 
 In [Part 6]({{ root_url }}/2014/04/a-ruby-primer-part-6-numbers/) of this primer, you can learn about numbers.
+
+In [Part 7]({{ root_url }}/2014/04/a-ruby-primer-part-7-booleans/) of this primer, you can learn about booleans.
