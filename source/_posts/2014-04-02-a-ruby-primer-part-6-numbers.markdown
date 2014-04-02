@@ -30,7 +30,7 @@ If you are unfamiliar with using the Ruby Interactive Shell, please refer to [Pa
 
 Ruby allows us to work with a variety of number systems, including decimal (integers and floats), binary, hexadecimal, and others. Integers can be any whole number. Floats can be any floating point number (containing a decimal), but *cannot* begin with a decimal - you must use a leading zero (e.g. 0.1234, not .1234). Binary numbers must begin with 0b (e.g. 0b1010) and hexadecimal numbers must begin with 0x (e.g. 0x10AF). We can create negative numbers by using the unary '-' operator (a positive value is always assumed, but you can specify the unary '+' operator, if you wish). [Wikipedia article on unary operations](http://en.wikipedia.org/wiki/Unary_operation)
 
-From IRB, let's number literals in action.
+From IRB, let's see number literals in action.
 
 ``` irb Number literals in different number systems
 irb(main):001:0> 42

@@ -12,6 +12,20 @@ If you have not yet set up your development environment, please refer to [Part 1
 If you are unfamiliar with using the Ruby Interactive Shell, please refer to [Part 3]({{ root_url }}/2014/03/a-ruby-primer-part-3-ruby-scripts/) of this primer.
 
 ### Terms
+> **Boolean:** *A boolean is a data type intended to represent logical truth values.* [Wikipedia article](http://en.wikipedia.org/wiki/Boolean_data_type)
+>
+> **Comparison:** *A comparison is an operation that is used to test the inequality of values.* [Wikipedia article](http://en.wikipedia.org/wiki/Inequality_(mathematics))
+
+
+### Booleans in Ruby
+
+Ruby provides three [boolean literals](http://www.ruby-doc.org/core-2.1.1/doc/syntax/literals_rdoc.html) that we can use when making comparisons or in conditional expressions: `true`, `false`, and `nil`. (*Note that we will discuss conditional expressions later in this primer.*)
+
+- `true` is a true value
+- `false` is a false value
+- `nil` is a false value and is also used to indicate the absence of data or that the truth value of the data is unknown.
+
+From IRB, let's
 
 ### A Ruby Primer
 
