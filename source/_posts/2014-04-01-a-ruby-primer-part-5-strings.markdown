@@ -14,13 +14,17 @@ If you are unfamiliar with using the Ruby Interactive Shell, please refer to [Pa
 ### Terms
 > **Data Type:** *A data type is a classification identifying a type of data.* [Wikipedia article](http://en.wikipedia.org/wiki/Data_type)
 >
-> **String:** *A string is an object that holds and manipulates a sequence of characters.* [Ruby documentation](http://www.ruby-doc.org/core-2.1.0/String.html)
+> **Literal:** *A literal creates objects in Ruby.* [Ruby documentation](http://www.ruby-doc.org/core-2.1.1/Float.html)
+>
+> **Class:** *A class is a template for creating objects, and for providing initial values for state (member variables, or properties) and implementations of behavior (member fuctions, or methods).* [Wikipedia article](http://en.wikipedia.org/wiki/Class_(computer_programming))
+>
+> **String:** *A Ruby class representing a sequence of characters.* [Ruby documentation](http://www.ruby-doc.org/core-2.1.0/String.html)
 >
 > **Escape Character:** *An escape character is a special character (usually preceded by a backslash that evaluates to a special character, e.g. tab, newline, etc.).* [Wikipedia article](http://en.wikipedia.org/wiki/Escape_character)
 
 ### Strings in Ruby
 
-Strings in Ruby can be created using either single or double quotes (e.g. "Clark" or 'Kent'). Any characters that are encompassed withing single or double quotes is considered a string. In [Part 4]({{ root_url }}/2014/03/a-ruby-primer-part-4-outputting-and-inputting-data/) of this primer, we also saw that we can use the `gets` method to get a data from the standard input as a string. (*Remember, the `gets` method appends a newline character to each string input.*)
+String literals in Ruby can be created using either single or double quotes (e.g. "Clark" or 'Kent'). Any characters that are encompassed withing single or double quotes is considered a string. In [Part 4]({{ root_url }}/2014/03/a-ruby-primer-part-4-outputting-and-inputting-data/) of this primer, we also saw that we can use the `gets` method to get a data from the standard input as a string. (*Remember, the `gets` method appends a newline character to each string input.*)
 
 From IRB, let's see this in action.
 

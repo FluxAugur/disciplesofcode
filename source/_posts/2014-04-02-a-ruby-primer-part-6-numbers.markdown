@@ -12,10 +12,19 @@ If you have not yet set up your development environment, please refer to [Part 1
 If you are unfamiliar with using the Ruby Interactive Shell, please refer to [Part 3]({{ root_url }}/2014/03/a-ruby-primer-part-3-ruby-scripts/) of this primer.
 
 ### Terms
-> **Data Type:** *A data type is a classification identifying a type of data.* [Wikipedia article](http://en.wikipedia.org/wiki/Data_type)
+> **Class:** *A class is a template for creating objects, and for providing initial values for state (member variables, or properties) and implementations of behavior (member fuctions, or methods).* [Wikipedia article](http://en.wikipedia.org/wiki/Class_(computer_programming))
 >
+> **Numeric:** *A Ruby class representing a numeric data type.* [Ruby documentation](http://www.ruby-doc.org/core-2.1.1/Numeric.html)
+>
+> **Integer:** *A Ruby class representing whole number data types.* [Ruby documentation](http://www.ruby-doc.org/core-2.1.1/Integer.html)
+>
+> **Float:** *A Ruby class representing floating point number data types.* [Ruby documentation](http://www.ruby-doc.org/core-2.1.1/Float.html)
+>
+> **Literal:** *A literal creates objects in Ruby.* [Ruby documentation](http://www.ruby-doc.org/core-2.1.1/Float.html)
 
 ### Numbers in Ruby
+
+
 
 ### A Ruby Primer
 
