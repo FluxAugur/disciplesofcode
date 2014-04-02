@@ -25,7 +25,71 @@ Ruby provides three [boolean literals](http://www.ruby-doc.org/core-2.1.1/doc/sy
 - `false` is a false value
 - `nil` is a false value and is also used to indicate the absence of data or that the truth value of the data is unknown.
 
-From IRB, let's
+We can assign boolean values to variables, just as we have with [numeric]({{ root_url }}/2014/04/a-ruby-primer-part-6-numbers/) and [string]({{ root_url }}/2014/04/a-ruby-primer-part-5-strings/) values. We can use the unary negation ('!') operator to reverse the truth value of a boolean.
+
+From IRB, let's see booleans in action.
+
+``` irb Boolean literals
+irb(main):001:0> true
+=> true
+irb(main):002:0> false
+=> false
+irb(main):003:0> nil
+=> nil
+irb(main):004:0> !true
+=> false
+irb(main):005:0> !false
+=> true
+irb(main):006:0> !nil
+=> true
+irb(main):007:0> flag = true
+=> true
+irb(main):008:0> flag
+=> true
+irb(main):009:0> !flag
+=> false
+```
+
+#### Comparison Operators
+
+Ruby provides the standard comparison operations of 'is equal to', 'is not equal to', 'is greater than', 'is less than', 'is greater than or equal to', and 'is less than or equal to', through the binary operators '==', '!=', '\>', '<', '\>=', and '<=', respectively. There are a few others which we will discuss in later parts of this primer.
+
+From IRB, let's see the comparison operators in action.
+
+``` irb Comparison operators
+irb(main):010:0> true == true
+=> true
+irb(main):011:0> true == false
+=> false
+irb(main):012:0> true == nil
+=> false
+irb(main):013:0> false == nil
+=> false
+irb(main):014:0> true != true
+=> false
+irb(main):015:0> true != false
+=> true
+irb(main):016:0> true != nil
+=> true
+irb(main):017:0> false != nil
+=> true
+irb(main):018:0> 24 == 42
+=> false
+irb(main):019:0> 24 != 42
+=> true
+irb(main):020:0> 24 > 42
+=> false
+irb(main):021:0> 24 >= 42
+=> false
+irb(main):022:0> 24 < 42
+=> true
+irb(main):023:0> 24 <= 42
+=> true
+```
+
+We recommend trying out some of these comparison operations on your own to gain a better understanding. We will be using various boolean literals and comparison operations throughout the rest of this primer.
+
+Congratulations! You have learned about some of the basic ways to use the boolean data types, and perform basic comparison operations.
 
 ### A Ruby Primer
 

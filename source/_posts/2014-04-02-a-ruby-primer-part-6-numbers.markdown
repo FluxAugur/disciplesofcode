@@ -28,7 +28,7 @@ If you are unfamiliar with using the Ruby Interactive Shell, please refer to [Pa
 
 ### Numbers in Ruby
 
-Ruby allows us to work with a variety of number systems, including decimal (integers and floats), binary, hexadecimal, and others. Integers can be any whole number. Floats can be any floating point number (containing a decimal), but *cannot* begin with a decimal - you must use a leading zero (e.g. 0.1234, not .1234). Binary numbers must begin with 0b (e.g. 0b1010) and hexadecimal numbers must begin with 0x (e.g. 0x10AF). We can create negative numbers by using the unary '-' operator (a positive value is always assumed, but you can specify the unary '+' operator, if you wish). [Wikipedia article on unary operations](http://en.wikipedia.org/wiki/Unary_operation)
+Ruby allows us to work with a variety of number systems, including decimal (integers and floats), binary, hexadecimal, and others. Integers can be any whole number. Floats can be any floating point number (containing a decimal), but *cannot* begin with a decimal - you must use a leading zero (e.g. 0.1234, not .1234). Binary numbers must begin with 0b (e.g. 0b1010) and hexadecimal numbers must begin with 0x (e.g. 0x10AF). We can create negative numbers by using the unary negative '-' operator (a positive value is always assumed, but you can specify the unary positive '+' operator, if you wish). [Wikipedia article on unary operations](http://en.wikipedia.org/wiki/Unary_operation)
 
 From IRB, let's see number literals in action.
 
@@ -142,6 +142,8 @@ irb(main):031:0> 2 ** ((4 + -42) * 0x10E1 / -0b101010)
 ```
 
 That's a really large number!!
+
+Ruby provides many other useful numeric methods. We recommend exploring the Ruby documentation and trying out some of these on your own to gain a better understanding. We will be using various numeric methods throughout the rest of this primer.
 
 Congratulations! You have learned about some of the basic ways to use the numeric data types, and perform basic arithmetic operations.
 
