@@ -10,13 +10,13 @@ categories: [Coding, Learning, Teaching, How, Code, Ruby, Exercise]
 In this exercise, you will create a Ruby script for a simple command line calculator.
 
 ### Specification
-- **File Name:** simple-calculator.rb
-- **Input:** Several strings containing your name, the user's name, integers, and floats.
-- **Output:** Several strings containing various prompts and the results of various arithmetic calculations.
-- **Methods Used:** puts, print, gets, to_i, to_f, to_s (for floats)
+- **File Name:** *simple-calculator.rb*
+- **Input:** *Several strings containing your name, the user's name, integers, and floats.*
+- **Output:** *Several strings containing various prompts and the results of various arithmetic calculations.*
+- **Methods Used:** *puts, print, gets, to_i, to_f, to_s (for floats)*
 
 ### Sample Output
-```
+``` text
 Welcome to the Simple Calculator by Disciples of Code
 Please enter your name: Clark Kent
 Hello, Clark Kent
@@ -66,3 +66,5 @@ In [Part 9]({{ root_url }}/2014/04/a-ruby-primer-part-9-arrays/) of this primer,
 In [Part 10]({{ root_url }}/2014/04/a-ruby-primer-part-10-hashes/) of this primer, you can learn about hashes.
 
 In [Part 11]({{ root_url }}/2014/04/a-ruby-primer-part-11-variables-and-constants/) of this primer, you can learn about variables and constants.
+
+In [Exercise 2]({{ root_url }}/2014/04/a-ruby-primer-exercise-2-a-random-number-min-max-detector/) of this primer, you can learn how to create a program to detect the minimum and maximum values from a collection of randomly generated numbers.
