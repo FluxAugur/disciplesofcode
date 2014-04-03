@@ -133,3 +133,5 @@ In [Part 8]({{ root_url }}/2014/04/a-ruby-primer-part-8-ranges/) of this primer,
 In [Part 9]({{ root_url }}/2014/04/a-ruby-primer-part-9-arrays/) of this primer, you can learn about arrays.
 
 In [Part 10]({{ root_url }}/2014/04/a-ruby-primer-part-10-hashes/) of this primer, you can learn about hashes.
+
+In [Part 11]({{ root_url }}/2014/04/a-ruby-primer-part-11-variables-and-constants/) of this primer, you can learn about variables and constants.
