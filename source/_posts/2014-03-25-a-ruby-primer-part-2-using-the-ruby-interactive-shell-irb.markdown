@@ -131,3 +131,5 @@ In [Part 7]({{ root_url }}/2014/04/a-ruby-primer-part-7-booleans/) of this prime
 In [Part 8]({{ root_url }}/2014/04/a-ruby-primer-part-8-ranges/) of this primer, you can learn about booleans.
 
 In [Part 9]({{ root_url }}/2014/04/a-ruby-primer-part-9-arrays/) of this primer, you can learn about arrays.
+
+In [Part 10]({{ root_url }}/2014/04/a-ruby-primer-part-10-hashes/) of this primer, you can learn about hashes.

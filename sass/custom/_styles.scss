@@ -183,3 +183,29 @@ div.jumbotron.shrink .container {
   font-size: 1.4em;
   line-height: 1.45em;
 }
+
+.tag-cloud {
+  margin-bottom: 20px;
+  background-color: #2e3338;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  border-color: rgba(0,0,0,0.6);
+}
+
+.tag-cloud-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  color: #c8c8c8;
+  background-color: #3e444c;
+  border-color: rgba(0,0,0,0.6);
+}
+
+.tag-cloud-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+}
