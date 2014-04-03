@@ -12,11 +12,11 @@ If you have not yet set up your development environment, please refer to [Part 1
 If you are unfamiliar with using the Ruby Interactive Shell, please refer to [Part 3]({{ root_url }}/2014/03/a-ruby-primer-part-3-ruby-scripts/) of this primer.
 
 ### Terms
-> **Range:** *A range is a interval of data.* [Ruby documentation](http://www.ruby-doc.org/core-2.1.1/Range.html)
+> **Range:** *A range is a sequenced interval of data.* [Ruby documentation](http://www.ruby-doc.org/core-2.1.1/Range.html)
 
 ### Ranges in Ruby
 
-Ruby allows us to create intervals of data (e.g. the integers 1 through 10) as a range object. We can create a range of any type of object in Ruby, as well as create our own custom ranges. Ranges in Ruby can be either inclusive of the end value, or exclusive of the end value, and use the binary operators '..', or '...', respectively. Like other literals, we can assign ranges to variables.
+Ruby allows us to create sequenced intervals of data (e.g. the integers 1 through 10) as a range object. We can create a range of any type of object in Ruby, as well as create our own custom ranges. Ranges in Ruby can be either inclusive of the end value, or exclusive of the end value, and use the binary operators '..', or '...', respectively. Like other literals, we can assign ranges to variables.
 
 From IRB, let's see ranges in action.
 
@@ -180,7 +180,6 @@ irb(main):029:0> custom_range === 'aabr'
 Ruby provides many other useful range methods. We recommend exploring the [Ruby documentation](http://www.ruby-doc.org/core-2.1.1/Range.html) and trying out some of these on your own to gain a better understanding. We will be using various range methods throughout the rest of this primer.
 
 Congratulations! You have learned about some of the basic ways to use the range data type.
-
 
 ### A Ruby Primer
 
