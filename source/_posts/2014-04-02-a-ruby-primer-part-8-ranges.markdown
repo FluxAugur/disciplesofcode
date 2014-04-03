@@ -12,6 +12,175 @@ If you have not yet set up your development environment, please refer to [Part 1
 If you are unfamiliar with using the Ruby Interactive Shell, please refer to [Part 3]({{ root_url }}/2014/03/a-ruby-primer-part-3-ruby-scripts/) of this primer.
 
 ### Terms
+> **Range:** *A range is a interval of data.* [Ruby documentation](http://www.ruby-doc.org/core-2.1.1/Range.html)
+
+### Ranges in Ruby
+
+Ruby allows us to create intervals of data (e.g. the integers 1 through 10) as a range object. We can create a range of any type of object in Ruby, as well as create our own custom ranges. Ranges in Ruby can be either inclusive of the end value, or exclusive of the end value, and use the binary operators '..', or '...', respectively. Like other literals, we can assign ranges to variables.
+
+From IRB, let's see ranges in action.
+
+``` irb Range literals
+irb(main):001:0> 24..42
+=> 24..42
+irb(main):002:0> 'a'..'z'
+=> "a".."z"
+irb(main):003:0> 'aabb'..'aacc'
+=> "aabb".."aacc"
+irb(main):004:0> positive_numbers_under_ten = 1...10
+=> 1...10
+irb(main):005:0> letters = 'a'..'z'
+=> "a".."z"
+irb(main):006:0> custom_range = 'aabb'..'aacc'
+=> "aabb".."aacc"
+```
+
+What does the range 'aabb'..'aacc' do? It creates a custom range containing the words 'aabb', 'aabc', 'aabd', ..., 'aaca', 'aacb', 'aacc'.
+
+#### The include? Method
+> **Method Signatures:**
+>
+> - *include?(obj) -> true or false* [Ruby documentation](http://www.ruby-doc.org/core-2.1.1/Range.html#method-i-include-3F)
+
+In Ruby, the `include?` method will compare the specified object to determine if it exists within a range. (*Note that if we want to use the `include?` method on a range literal, we need to enclose the range literal in parentheses.*)
+
+From IRB, let's see the `include?` method in action.
+
+``` irb The include? method
+irb(main):007:0> (24...42).include? 42
+=> false
+irb(main):008:0> ('a'..'z').include?('r')
+=> true
+irb(main):009:0> letters.include? 'y'
+=> true
+irb(main):010:0> positive_numbers_under_ten.include? 0
+=> false
+irb(main):011:0> custom_range.include? 'aabz'
+=> true
+irb(main):010:0> custom_range.include? 'abcd'
+=> false
+```
+
+#### The min Method
+> **Method Signatures:**
+>
+> - *min -> obj* [Ruby documentation](http://www.ruby-doc.org/core-2.1.1/Range.html#method-i-min)
+>
+> - *min \{\| a, b \| block \} -> obj* [Ruby documentation](http://www.ruby-doc.org/core-2.1.1/Range.html#method-i-min)
+
+In Ruby, the `min` method returns the minimum value in a range.
+
+From IRB, let's see the `min` method in action.
+
+``` irb The min method
+irb(main):011:0> (24..42).min
+=> 24
+irb(main):012:0> (24...42).min
+=> 24
+irb(main):013:0> letters.min
+=> "a"
+irb(main):014:0> positive_numbers_under_ten.min
+=> 1
+irb(main):015:0> custom_range.min
+=> "aabb"
+```
+
+#### The max Method
+> **Method Signatures:**
+> - *max -> obj* [Ruby documentation](http://www.ruby-doc.org/core-2.1.1/Range.html#method-i-max)
+>
+> - *max \{\| a, b \| block \} -> obj* [Ruby documentation](http://www.ruby-doc.org/core-2.1.1/Range.html#method-i-max)
+
+In Ruby, the `max` method returns the maximum value in a range.
+
+From IRB, let's see the `max` method in action.
+
+``` irb The max method
+irb(main):016:0> (24..42).max
+=> 42
+irb(main):017:0> (24...42).max
+=> 41
+irb(main):018:0> letters.max
+=> "z"
+irb(main):019:0> positive_numbers_under_ten.max
+=> 9
+irb(main):020:0> custom_range.max
+=> "aacc"
+```
+
+#### The each Method
+> **Method Signatures:**
+>
+> - *each \{\| i \| block \} -> rng* [Ruby documentation](http://www.ruby-doc.org/core-2.1.1/Range.html#method-i-each)
+>
+> - *each -> an_enumerator* [Ruby documentation](http://www.ruby-doc.org/core-2.1.1/Range.html#method-i-each)
+
+In Ruby, the `each` method will iterate over the elements of a range, sending each element, i, to the block (a block of code, containing one or more statements or expressions).
+
+From IRB, let's see the `each` method in action.
+
+``` irb The each method
+irb(main):021:0> (24..42).each {| n | print n }
+24252627282930313233343536373839404142=> 24..42
+irb(main):022:0> letters.each {| letter | print letter, ' ' }
+a b c d e f g h i j k l m n o p q r s t u v w x y z => "a".."z"
+irb(main):023:0> positive_number_under_ten.each {| number | number * 2 }
+2 4 6 8 10 12 14 16 18 => 1...10
+irb(main):024:0> custom_range.each {| word | puts word }
+aabb
+aabc
+aabd
+aabe
+aabf
+aabg
+aabh
+aabi
+aabj
+aabk
+aabl
+aabm
+aabn
+aabo
+aabp
+aabq
+aabr
+aabs
+aabt
+aabu
+aabv
+aabw
+aabx
+aaby
+aabz
+aaca
+aacb
+aacc
+=> "aabb".."aacc"
+```
+
+#### Another Comparison Operator
+
+When using ranges, Ruby gives us another comparison operation, 'is a case of' (or 'is an element of'), through the binary operator '==='.
+
+From IRB, let's see this new comparison operator in action.
+
+``` irb New comparison operator
+irb(main):025:0> (24..42) === 30
+=> true
+irb(main):026:0> ('a'..'z') === 5
+=> false
+irb(main):027:0> letters === 'q'
+=> true
+irb(main):028:0> positive_numbers_under_ten === 10
+=> false
+irb(main):029:0> custom_range === 'aabr'
+=> true
+```
+
+Ruby provides many other useful range methods. We recommend exploring the [Ruby documentation](http://www.ruby-doc.org/core-2.1.1/Range.html) and trying out some of these on your own to gain a better understanding. We will be using various range methods throughout the rest of this primer.
+
+Congratulations! You have learned about some of the basic ways to use the range data type.
+
 
 ### A Ruby Primer
 
