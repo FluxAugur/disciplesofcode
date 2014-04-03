@@ -12,6 +12,66 @@ If you have not yet set up your development environment, please refer to [Part 1
 If you are unfamiliar with using the Ruby Interactive Shell, please refer to [Part 3]({{ root_url }}/2014/03/a-ruby-primer-part-3-ruby-scripts/) of this primer.
 
 ### Terms
+> **Variable:** *A variable is a symbolic name associated with some value, whether known or unknown.* [Wikipedia article](http://en.wikipedia.org/wiki/Variable_(computer_science))
+>
+> **Constant:** *A constant is a symbolic name associated with some known value, that is not intended to change.* [Wikipedia article](http://en.wikipedia.org/wiki/Constant_(programming))
+
+### Variables in Ruby
+
+Ruby allows us to create variables to store any object available in Ruby. We can name our variable **almost** anything we want, but there are a few rules that we must follow:
+
+- All variables must begin with either a lowercase letter or an underscore ('_').
+- After the first letter (or underscore) of a variable, the variable name can only contain letters, numbers, or underscores.
+
+When naming variables, the **proper** standard practice is to use meaningful variable names (e.g. rate instead of r, or publication_date instead of date) that reduce abiguity and confusion for anyone reading your code (yourself included). For complex variable names (e.g. positive_numbers_under_ten), the Ruby convention is to use underscore to separate the words in the complex variable name. (*Note that in other languages, [CamelCase](http://en.wikipedia.org/wiki/CamelCase) is often used. This is purely a convention and stylistic choice of many Ruby programmers. You are free to use either in your own Ruby code.*)
+
+In Ruby, we create a variable through an assignment operation, using the binary operator '='. Ruby is smart enough to figure out what data type the variable should be, so that we do not have to specify a data type when creating a variable.
+
+From IRB, let's see variable creation and assignment in action.
+
+``` irb Variable creation and assignment
+irb(main):001:0> letter = "a"
+=> "a"
+irb(main):002:0> letter
+=> "a"
+irb(main):003:0> _number = 42
+=> 42
+irb(main):004:0> _number
+=> 42
+irb(main):005:0> first_name = "Clark"
+=> "Clark"
+irb(main):006:0> lastName = "Kent"
+=> "Kent"
+irb(main):007:0> date_of_first_appearance_of_superman = 1938
+=> 1938
+```
+
+### Constants in Ruby
+
+Ruby allows us to create constants, by using **all** uppercase letters in the name of our constant (e.g. TAU = 6.28319). (*Note that in Ruby, a constant isn't really constant, and can be changed at a later point in your program. However, the convention in Ruby is that constants should **not** be changed. Ruby will give you a warning when you try to reassign a constant, but will go ahead and do the reassignment anyway.*)
+
+From IRB, let's see constant creation and assignment in action.
+
+``` irb Constant creation and assignment
+irb(main):008:0> TAU = 6.28319
+=> 6.28319
+irb(main):009:0> TAU
+=> 6.28319
+irb(main):010:0> SITE_NAME = "Disciples of Code"
+=> "Disciples of Code"
+irb(main):011:0> SITE_NAME
+=> "Disciples of Code"
+irb(main):012:0> SITE_NAME = "Your Really Awesome Site"
+(irb):12: warning: already initializaed constant SITE_NAME
+(irb):11: warning: previous definition of SITE_NAME was here
+=> "Your Really Awesome Site"
+irb(main):013:0> SITE_NAME
+=> "Your Really Awesome Site"
+```
+
+We will be using variables and constant throughout the rest of this primer.
+
+Congratulations! You have learned about some of the basic ways to create and assign values to variables and constants.
 
 ### A Ruby Primer
 

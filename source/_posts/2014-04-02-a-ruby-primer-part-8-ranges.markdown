@@ -16,7 +16,9 @@ If you are unfamiliar with using the Ruby Interactive Shell, please refer to [Pa
 
 ### Ranges in Ruby
 
-Ruby allows us to create sequenced intervals of data (e.g. the integers 1 through 10) as a range object. We can create a range of any type of object in Ruby, as well as create our own custom ranges. Ranges in Ruby can be either inclusive of the end value, or exclusive of the end value, and use the binary operators '..', or '...', respectively. Like other literals, we can assign ranges to variables.
+Ruby allows us to create sequenced intervals of data (e.g. the integers 1 through 10) as a range object. We can create a range of any type of object in Ruby, as well as create our own custom ranges.
+
+In Ruby, ranges can be either inclusive of the end value, or exclusive of the end value, and use the binary operators '..', or '...', respectively. Like other literals, we can assign ranges to variables.
 
 From IRB, let's see ranges in action.
 

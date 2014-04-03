@@ -16,7 +16,9 @@ If you are unfamiliar with using the Ruby Interactive Shell, please refer to [Pa
 
 ### Arrays in Ruby
 
-Ruby allows us to create ordered (but not necessarily sequenced) collections of objects, called arrays. An array contains some number of elements (objects) which are indexed using integers. The first element of an array is at index 0. (e.g. An array containing 5 elements would have indices 0, 1, 2, 3, and 4, representing the first, second, third, fourth, and fifth elements of the array, respectively.) In Ruby, we define an array using square brackets (\[\]). Like other literals, we can assign arrays to variables.
+Ruby allows us to create ordered (but not necessarily sequenced) collections of objects, called arrays. An array contains some number of elements (objects) which are indexed using integers. The first element of an array is at index 0. (e.g. An array containing 5 elements would have indices 0, 1, 2, 3, and 4, representing the first, second, third, fourth, and fifth elements of the array, respectively.)
+
+In Ruby, we define an array using square brackets (\[\]). Like other literals, we can assign arrays to variables.
 
 From IRB, let's see arrays in action.
 

@@ -16,7 +16,9 @@ If you are unfamiliar with using the Ruby Interactive Shell, please refer to [Pa
 
 ### Hashes in Ruby
 
-Ruby allows us to create dictionary-like objects, called hashes, which are associative collections of unique key-value pairs. Hashes are similar to arrays, but can use any object as an index, as opposed to the integer index that arrays use. In Ruby, we define a hash using curly braces (\{\}) and a colon (':') after the key (if the key is a [Ruby symbol](http://www.ruby-doc.org/core-2.1.1/Symbol.html)), or a hash rocket ('=>') after the key (if the key is a string). (*Note that we will be discussing Ruby symbols later in this primer, but for now, keep in mind that after creating a symbol using a colon **after** the symbol name, you can access the symbol by putting a colon **before** the symbol name.*) Like other literals, we can assign hashes to variables.
+Ruby allows us to create dictionary-like objects, called hashes, which are associative collections of unique key-value pairs. Hashes are similar to arrays, but can use any object as an index, as opposed to the integer index that arrays use.
+
+In Ruby, we define a hash using curly braces (\{\}) and a colon (':') after the key (if the key is a [Ruby symbol](http://www.ruby-doc.org/core-2.1.1/Symbol.html)), or a hash rocket ('=>') after the key (if the key is a string). (*Note that we will be discussing Ruby symbols later in this primer, but for now, keep in mind that after creating a symbol using a colon **after** the symbol name, you can access the symbol by putting a colon **before** the symbol name.*) Like other literals, we can assign hashes to variables.
 
 From IRB, let's see hashes in action.
 
