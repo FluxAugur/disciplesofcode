@@ -1,56 +1,51 @@
 ---
 layout: post
-title: "A Ruby Primer - Part 3: Ruby Scripts"
+title: "A Ruby Primer - Part 12: Arithmetic Operators"
 author: FluxAugur
-date: 2014-03-30 22:30:32 -0400
+date: 2014-06-28 16:38:22 -0400
 comments: true
 sharing: true
-categories: [Coding, Learning, Teaching, How, Code, Ruby, Scripts]
+categories: [Coding, Learning, Teaching, How, Code, Ruby, IRB, Arithmetic Operators]
 ---
 If you have not yet set up your development environment, please refer to [Part 1]({{ root_url }}/2014/03/a-ruby-primer-part-1-setting-up-your-development-environment/) of this primer.
 
-### Scripts?
+If you are unfamiliar with using the Ruby Interactive Shell, please refer to [Part 3]({{ root_url }}/2014/03/a-ruby-primer-part-3-ruby-scripts/) of this primer.
 
-While using the Ruby Interactive Shell (IRB) to evaluate your Ruby code can be very useful for learning, debugging, and executing short statements or expressions, to create larger (and persistent) Ruby programs, you will need to store all of your Ruby code in scripts.
+### Arithmetic in Ruby
 
-A script is simply a plain-text file that contains your code. In our case, we will be creating Ruby scripts (containing Ruby code). All Ruby scripts should have a Ruby filename extension (e.g filename.rb).
+As discussed in [Part 6]({{ root_url }}/2014/04/a-ruby-primer-part-6-numbers/) of this primer, Ruby provides the standard arithmetic operations of addition, subtraction, multiplication, division, remainder (modulo), and exponention through the binary operators '+', '-', '\*', '/', '%', '\*\*', respectively.
 
-### Creating Scripts
+Ruby orders the arithmetic operations just like you would expect. Parentheses can be used to override the standard order of operations.
 
-To create a script, you will use a text editor. There are many different text editors available. Here are a few that we recommend.
+- Exponentiation ('\*\*')
+- Unary plus ('+') and minus ('-')
+- Multiplication ('\*'), division ('/'), and modulo ('%')
+- Addition ('+') and subtraction ('-')
 
-- Notepad (Windows; Included with operating system)
-- [Sublime Text](http://www.sublimetext.com/) (Windows, OS X, Linux; Free to evaluate - $70 license)
-- [Notepad++](http://notepad-plus-plus.org/) (Windows; Free)
-- [GNU nano](http://www.nano-editor.org/) (OS X, Linux; Free)
-- [vim](http://www.vim.org/) (Windows, OS X, Linux; Free)
+From IRB, let's see the arithmetic operators in action.
 
-We will not be covering installation or usage of your chosen text editor. Please refer to the relevant documentation for the application of your choice.
-
-### Creating and Executing Ruby Scripts
-
-Using your chosen text editor, create a file called `helloworld.rb`. While it isn't necessary, it is recommended that you store all of your Ruby scripts in an appropriate directory on your filesystem (e.g. a directory called "ruby-primer"). Open the file, add the following Ruby code, and then save the file.
-
-``` ruby helloworld.rb
-puts("Hello, world!")
+``` irb Arithmetic operators
+irb(main):001:0> 1 + 2
+=> 3
+irb(main):002:0> 12.3 - 4.5
+=> 7.8
+irb(main):003:0> 123 * 6.28319
+=> 772.83237
+irb(main):004:0> 42 / 4
+=> 10
+irb(main):005:0> 42 % 4
+=> 2
+irb(main):006:0> 2 ** 10
+=> 1024
+irb(main):007:0> 1 + 2 * 3
+=> 7
+irb(main):008:0> 1 + 2 ** 3
+=> 9
+irb(main):009:0> (1 + 2) ** 3
+=> 27
 ```
 
-To execute the `helloworld.rb` Ruby script, open a Terminal window (OS X or Linux) or a Command Prompt (Windows), navigate to the directory where you saved the file, and execute the following command.
-
-``` bash Executing helloworld.rb
-$ ruby helloworld.rb
-```
-
-You should see the text "Hello, world!" output after executing your `helloworld.rb` Ruby script, as such:
-
-``` bash Executing helloworld.rb (with output)
-$ ruby helloworld.rb
-Hello, world!
-```
-
-We will be executing many Ruby scripts throughout the remainder of this primer.
-
-Congratulation! You have learned how to create and execute Ruby scripts.
+Congratulations! You have learned about arithmetic operators.
 
 ### A Ruby Primer
 

@@ -117,3 +117,5 @@ In [Part 10]({{ root_url }}/2014/04/a-ruby-primer-part-10-hashes/) of this prime
 In [Part 11]({{ root_url }}/2014/04/a-ruby-primer-part-11-variables-and-constants/) of this primer, you can learn about variables and constants.
 
 In [Exercise 2]({{ root_url }}/2014/04/a-ruby-primer-exercise-2-a-random-number-min-max-detector/) of this primer, you can learn how to create a program to detect the minimum and maximum values from a collection of randomly generated numbers.
+
+In [Part 12]({{ root_url }}/2014/04/a-ruby-primer-part-12-arithmetic-operators/) of this primer, you can learn about arithmetic operators.

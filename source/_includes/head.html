@@ -12,12 +12,12 @@
     {% if page.description %}
       <meta name="description" content="{{ page.description | strip_html | condense_spaces | truncate:150 }}">
     {% endif %}
-  {% end capture %}
+  {% endcapture %}
   {% capture keywords %}
     {% if page.keywords %}
       <meta name="keywords" content="{{ page.keywords }}">
     {% endif %}
-  {% end capture %}
+  {% endcapture %}
 
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
