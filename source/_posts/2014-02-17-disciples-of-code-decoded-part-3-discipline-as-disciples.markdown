@@ -6,6 +6,8 @@ date: 2014-02-17 17:53:54 -0500
 comments: true
 sharing: true
 categories: [Coding, Learning, Rhetoric, Teaching, How]
+description: Disciples of Code is dedicated to enabling a more code-capable world through free-to-all code samples, programming lessons, tutorials, and collaborative coding sessions. This post covers the discipline needed to learn to code.
+keywords: disciples of code, disciples of code posts, disciples of code decoded post, coding discipline
 ---
 So you are ready to begin your journey and learn to code, but you don't know where to begin. Of course, information is free, for those willing to find it, but not all information is as valuable or worthwhile when you are just starting out. At this point, you can't tell bad code from good. You have no idea whether you should start out by thumbing through some massive tome of seemingly arcane jargon in an attempt to glean some tidbit of understanding, or simply fire up your trusty Internet search engine and dive in head-first.
 

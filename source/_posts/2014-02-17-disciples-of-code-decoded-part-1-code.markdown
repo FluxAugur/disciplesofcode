@@ -6,6 +6,8 @@ date: 2014-02-17 17:48:37 -0500
 comments: true
 sharing: true
 categories: [Coding, Learning, Rhetoric, Teaching, What]
+description: Disciples of Code is dedicated to enabling a more code-capable world through free-to-all code samples, programming lessons, tutorials, and collaborative coding sessions. This post discusses what code is.
+keywords: disciples of code, disciples of code posts, disciples of code decoded post, what is code
 ---
 I say 'code', you say 'program'. He says 'script', she says 'app'. Does it matter? Putting aside the many technical definitions and nuances, in practice these terms are nearly synonymous — at least to a general audience. What we're really talking about is machine language, or a way of communicating with machines (e.g., computers) by combining a set of symbols, words, and statements according to certain predefined rules.
 

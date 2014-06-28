@@ -6,6 +6,8 @@ date: 2014-02-17 17:50:26 -0500
 comments: true
 sharing: true
 categories: [Coding, Learning, Rhetoric, Teaching, Why]
+description: Disciples of Code is dedicated to enabling a more code-capable world through free-to-all code samples, programming lessons, tutorials, and collaborative coding sessions. This post discusses why you should learn to code.
+keywords: disciples of code, disciples of code posts, disciples of code welcome post, why should i learn to code
 ---
 You can launch your favorite web browser and do an Internet search, and find any number of individuals and organizations offering reason after reason that learning to code is important. You can most likely find an equal number offering an opposing opinion. Of course, like with nearly all subjects of grand relevance, what this really means is that the 'Why' to the importance of coding, is up to you. And with any endeavor, the end result and polished nature of the output is nowhere near as significant as the attitude and approach of the individual undertaking the task. As such, I can only offer you a few of my own personal WHYs, and let you decide what value learning to code has to you.
 
