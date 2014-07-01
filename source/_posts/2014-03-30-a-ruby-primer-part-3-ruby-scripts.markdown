@@ -82,4 +82,4 @@ In [Exercise 2]({{ root_url }}/2014/04/a-ruby-primer-exercise-2-a-random-number-
 
 In [Part 12]({{ root_url }}/2014/06/a-ruby-primer-part-12-arithmetic-operators/) of this primer, you can learn about arithmetic operators.
 
-In [Part 13]({{ root_url }}/2014/07/a-ruby-primer-part-13-relational-operators/) of this primer, you can learn about arithmetic operators.
+In [Part 13]({{ root_url }}/2014/07/a-ruby-primer-part-13-relational-operators/) of this primer, you can learn about relational operators.
