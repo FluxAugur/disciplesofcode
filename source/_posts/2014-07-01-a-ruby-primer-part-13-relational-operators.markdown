@@ -1,51 +1,79 @@
 ---
 layout: post
-title: "A Ruby Primer - Part 12: Arithmetic Operators"
+title: "A Ruby Primer - Part 13: Relational Operators"
 author: FluxAugur
-date: 2014-06-28 16:38:22 -0400
+date: 2014-07-01 00:37:23 -0400
 comments: true
 sharing: true
-categories: [Coding, Learning, Teaching, How, Code, Ruby, IRB, Arithmetic Operators]
+categories: [Coding, Learning, Teaching, How, Code, Ruby, IRB, Relational Operators]
 ---
 If you have not yet set up your development environment, please refer to [Part 1]({{ root_url }}/2014/03/a-ruby-primer-part-1-setting-up-your-development-environment/) of this primer.
 
 If you are unfamiliar with using the Ruby Interactive Shell, please refer to [Part 3]({{ root_url }}/2014/03/a-ruby-primer-part-3-ruby-scripts/) of this primer.
 
-### Arithmetic in Ruby
+### Comparisons in Ruby
 
-As discussed in [Part 6]({{ root_url }}/2014/04/a-ruby-primer-part-6-numbers/) of this primer, Ruby provides the standard arithmetic operations of addition, subtraction, multiplication, division, remainder (modulo), and exponention through the binary operators '+', '-', '\*', '/', '%', '\*\*', respectively.
+As discussed in [Part 7]({{ root_url }}/2014/04/a-ruby-primer-part-7-booleans/) of this primer, Ruby provides the standard boolean values of 'true' and 'false, and the standard relational (comparison) operations of is equal to, is not equal to, is greater than, is less than, is greater than or equal to, is less than or equal to through the relational operators '==', '!=', '>', '<', '>=', and '<=', respectively. Ruby also provides a combined (or general) comparison operator, '<=>', which returns a 0 if the first operand is equal to the second, 1 if the first operand is greater than the second, or -1 if the first operand is less than the second.
 
-Ruby orders the arithmetic operations just like you would expect. Parentheses can be used to override the standard order of operations.
+From IRB, let's see the relational (comparison) operators in action.
 
-- Exponentiation ('\*\*')
-- Unary plus ('+') and minus ('-')
-- Multiplication ('\*'), division ('/'), and modulo ('%')
-- Addition ('+') and subtraction ('-')
-
-From IRB, let's see the arithmetic operators in action.
-
-``` irb Arithmetic operators
-irb(main):001:0> 1 + 2
-=> 3
-irb(main):002:0> 12.3 - 4.5
-=> 7.8
-irb(main):003:0> 123 * 6.28319
-=> 772.83237
-irb(main):004:0> 42 / 4
-=> 10
-irb(main):005:0> 42 % 4
-=> 2
-irb(main):006:0> 2 ** 10
-=> 1024
-irb(main):007:0> 1 + 2 * 3
-=> 7
-irb(main):008:0> 1 + 2 ** 3
-=> 9
-irb(main):009:0> (1 + 2) ** 3
-=> 27
+``` irb Relational (comparison) operators
+irb(main):001> 1 == 1
+=> true
+irb(main):002> 2 == 1
+=> false
+irb(main):003> 1 != 1
+=> false
+irb(main):004> 2 != 1
+=> true
+irb(main):005> 1 > 2
+=> false
+irb(main):006> 2 > 2
+=> false
+irb(main):007> 3 > 2
+=> true
+irb(main):008> 1 < 2
+=> true
+irb(main):009> 2 < 2
+=> false
+irb(main):010> 3 < 2
+=> false
+irb(main):011> 1 >= 2
+=> false
+irb(main):012> 2 >= 2
+=> true
+irb(main):013> 3 >= 2
+=> true
+irb(main):014> 1 <= 2
+=> true
+irb(main):015> 2 <= 2
+=> true
+irb(main):016> 3 <= 2
+=> false
+irb(main):017> 1 <=> 2
+=> -1
+irb(main):018> 2 <=> 2
+=> 0
+irb(main):019> 3 <=> 2
+=> 1
 ```
 
-Congratulations! You have learned about arithmetic operators.
+Ruby allows us to use the relational (comparison) operators on strings. Keep in mind that string comparisons are case-sensitive, and that letters that come alphabetically before or after their case-sensitive counterpart (e.g. 'a' compared to 'b', or 'B' compared to 'A') are less than or greater than, respectively.
+
+From IRB, let's see the relational (comparison) operators in action on strings.
+
+``` irb Relational (comparison) operators
+irb(main):020> "ant" == "ant"
+=> true
+irb(main):021> "Ant" == "ant"
+=> false
+irb(main):022> "bear" < "bear"
+=> false
+irb(main):023> "bear" < "beaver"
+=> true
+```
+
+Congratulations! You have learned about relational operators.
 
 ### A Ruby Primer
 
