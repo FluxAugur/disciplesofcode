@@ -1,44 +1,56 @@
 ---
 layout: post
-title: "A Ruby Primer - Part 10: Hashes"
+title: "A Ruby Primer - Part 14: Logical Operators"
 author: FluxAugur
-date: 2014-04-03 04:16:55 -0400
+date: 2014-07-07 22:40:43 -0400
 comments: true
 sharing: true
-categories: [Coding, Learning, Teaching, How, Code, Ruby, IRB, Hashes, Data Types]
+categories: [Coding, Learning, Teaching, How, Code, Ruby, IRB, Logical Operators]
 ---
 If you have not yet set up your development environment, please refer to [Part 1]({{ root_url }}/2014/03/a-ruby-primer-part-1-setting-up-your-development-environment/) of this primer.
 
 If you are unfamiliar with using the Ruby Interactive Shell, please refer to [Part 3]({{ root_url }}/2014/03/a-ruby-primer-part-3-ruby-scripts/) of this primer.
 
-### Terms
-> **Hash:** *A hash is an associative collection of unique keys and their values.* [Ruby documentation](http://www.ruby-doc.org/core-2.1.1/Hash.html)
+### Logic in Ruby
 
-### Hashes in Ruby
+Ruby provides the standard logic operators of 'and', 'or', and 'not' through the logical operators 'and', 'or', and 'not' (or if you prefer C-style, '&&', '||', and '!'), respectively.
 
-Ruby allows us to create dictionary-like objects, called hashes, which are associative collections of unique key-value pairs. Hashes are similar to arrays, but can use any object as an index, as opposed to the integer index that arrays use.
+The logical operator 'and' is true if, and only if, both relational (comparison) operators are true. Any other combination is false.
 
-In Ruby, we define a hash using curly braces (\{\}) and a colon (':') after the key (if the key is a [Ruby symbol](http://www.ruby-doc.org/core-2.1.1/Symbol.html)), or a hash rocket ('=>') after the key (if the key is a string). (*Note that we will be discussing Ruby symbols later in this primer, but for now, keep in mind that after creating a symbol using a colon **after** the symbol name, you can access the symbol by putting a colon **before** the symbol name.*) Like other literals, we can assign hashes to variables.
+The logical operator 'or' is false if, and only if, both relational (comparison) operators are false. Any other combination is true.
 
-From IRB, let's see hashes in action.
+The logical operator 'not' negates the truth value of a relational (comparison) operator (e.g. not true is false, and not false is true).
 
-``` irb Hash literals
-irb(main):001:0> secret_id = {"Superman" => "Clark Kent", "Wonder Woman" => "Diana Prince", "Batman" => "Bruce Wayne", "Green Lantern" => "Alan Scott", "The Flash" => "Jay Garrick"}
-=> {"Superman"=>"Clark Kent", "Wonder Woman"=>"Diana Prince", "Batman"=>"Bruce Wayne", "Green Lantern"=>"Alan Scott", "The Flash"=>"Jay Garrick"}
-irb(main):002:0> secret_id["Superman"]
-=> "Clark Kent"
-irb(main):003:0> secret_id["Green Lantern"]
-=> "Alan Scott"
-irb(main):004:0> first_appearance = {superman: 1938, wonder_woman: 1941, batman: 1939, green_lantern: 1940, the_flash: 1940}
-irb(main):005:0> first_appearance[:wonder_woman]
-=> 1941
-irb(main):006:0> first_appearance[:the_flash]
-=> 1940
+From IRB, let's see the logical operators in action. (Note: We will set up some variables for use in our example.)
+
+``` irb Logical operators
+irb(main):001> wage = 10
+=> 10
+irb(main):002> hours = 40
+=> 40
+irb(main):003> wage == 10 and hours == 40
+=> true
+irb(main):004> wage < 10 and hours == 40
+=> false
+irb(main):005> wage == 10 && hours == 40
+=> true
+irb(main):006> wage == 10 or hours < 40
+=> true
+irb(main):007> wage < 10 or hours == 40
+=> true
+irb(main):008> wage < 10 || hours == 40
+=> true
+irb(main):009> not true
+=> false
+irb(main):010> not false
+=> true
+irb(main):011> not wage == 10
+=> false
+irb(main):012> !wage == 10
+=> false
 ```
 
-Ruby provides many useful hash methods. We recommend exploring the [Ruby documentation](http://www.ruby-doc.org/core-2.1.1/Hash.html) and trying out some of these on your own to gain a better understanding. We will be using various hash methods throughout the rest of this primer.
-
-Congratulations! You have learned about some of the basic ways to use the hash data type.
+Congratulations! You have learned about relational operators.
 
 ### A Ruby Primer
 
