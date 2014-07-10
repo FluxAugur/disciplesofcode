@@ -5,7 +5,7 @@ author: FluxAugur
 date: 2014-04-01 23:21:05 -0400
 comments: true
 sharing: true
-categories: [Coding, Learning, Teaching, How, Code, Ruby, IRB, Strings, Data Types]
+categories: [Coding, Learning, Teaching, How, Code, Ruby, Primer, IRB, Strings, Data Types]
 ---
 If you have not yet set up your development environment, please refer to [Part 1]({{ root_url }}/2014/03/a-ruby-primer-part-1-setting-up-your-development-environment/) of this primer.
 

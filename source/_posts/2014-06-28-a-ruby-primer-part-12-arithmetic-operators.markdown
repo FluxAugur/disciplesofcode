@@ -5,7 +5,7 @@ author: FluxAugur
 date: 2014-06-28 16:38:22 -0400
 comments: true
 sharing: true
-categories: [Coding, Learning, Teaching, How, Code, Ruby, IRB, Arithmetic Operators]
+categories: [Coding, Learning, Teaching, How, Code, Ruby, Primer, IRB, Arithmetic Operators, Operators & Expressions]
 ---
 If you have not yet set up your development environment, please refer to [Part 1]({{ root_url }}/2014/03/a-ruby-primer-part-1-setting-up-your-development-environment/) of this primer.
 

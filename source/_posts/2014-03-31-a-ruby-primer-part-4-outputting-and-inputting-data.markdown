@@ -5,7 +5,7 @@ author: FluxAugur
 date: 2014-03-31 00:03:03 -0400
 comments: true
 sharing: true
-categories: [Coding, Learning, Teaching, How, Code, Ruby, IRB, Output, Input]
+categories: [Coding, Learning, Teaching, How, Code, Ruby, Primer, IRB, Output, Input]
 ---
 If you have not yet set up your development environment, please refer to [Part 1]({{ root_url }}/2014/03/a-ruby-primer-part-1-setting-up-your-development-environment/) of this primer.
 

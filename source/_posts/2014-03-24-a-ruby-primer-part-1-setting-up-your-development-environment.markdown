@@ -5,7 +5,7 @@ author: FluxAugur
 date: 2014-03-24 06:44:21 -0500
 comments: true
 sharing: true
-categories: [Coding, Learning, Teaching, How, Code, Ruby]
+categories: [Coding, Learning, Teaching, How, Code, Ruby, Primer]
 description: Disciples of Code is dedicated to enabling a more code-capable world through free-to-all code samples, programming lessons, tutorials, and collaborative coding sessions. This post covers setting up your development environment for Ruby coding.
 keywords: disciples of code, disciples of code posts, disciples of code decoded post, ruby, ruby primer, learn ruby, learn to code, development environment
 ---

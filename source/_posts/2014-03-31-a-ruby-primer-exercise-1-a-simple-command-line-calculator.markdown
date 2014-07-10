@@ -5,7 +5,7 @@ author: FluxAugur
 date: 2014-03-31 03:52:37 -0400
 comments: true
 sharing: true
-categories: [Coding, Learning, Teaching, How, Code, Ruby, Exercise]
+categories: [Coding, Learning, Teaching, How, Code, Ruby, Primer, Exercise]
 ---
 In this exercise, you will create a Ruby script for a simple command line calculator.
 

@@ -5,7 +5,7 @@ author: FluxAugur
 date: 2014-07-01 00:37:23 -0400
 comments: true
 sharing: true
-categories: [Coding, Learning, Teaching, How, Code, Ruby, IRB, Relational Operators]
+categories: [Coding, Learning, Teaching, How, Code, Ruby, Primer, IRB, Relational Operators, Operators & Expressions]
 ---
 If you have not yet set up your development environment, please refer to [Part 1]({{ root_url }}/2014/03/a-ruby-primer-part-1-setting-up-your-development-environment/) of this primer.
 

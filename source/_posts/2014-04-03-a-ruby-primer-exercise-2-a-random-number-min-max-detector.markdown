@@ -5,7 +5,7 @@ author: FluxAugur
 date: 2014-04-03 07:00:11 -0400
 comments: true
 sharing: true
-categories: [Coding, Learning, Teaching, How, Code, Ruby, Exercise]
+categories: [Coding, Learning, Teaching, How, Code, Ruby, Primer, Exercise]
 ---
 In this exercise, you will create a Ruby script to detect the minimum and maximum values from a collection of randomly generated numbers.
 
